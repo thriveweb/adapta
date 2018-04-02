@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default ({ globalSettings, socialSettings, navLinks }) => (
   <section id='footer'>
@@ -28,22 +29,24 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
           <div className='col-lg-offset-3 col-lg-3 col-md-ofset-3  col-md-3  col-sm-12 col-xs-12 footer-col'>
             <ul className='ulnone'>
               <li>
-                <a className='home1' href='index.html'>
+                <Link className='home1' to='/index/'>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className='home1 footer-text-space' href='products.html'>
+                <Link className='home1 footer-text-space' to='/products/'>
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a className='home1 footer-spec-space'>Specifications</a>
+                <Link className='home1 footer-spec-space' to='/'>
+                  Specifications
+                </Link>
               </li>
               <li>
-                <a className='home1 footer-contact-space' href='contacts.html'>
+                <Link className='home1 footer-contact-space' to='/contact/'>
                   Contacts
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -51,10 +54,14 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
         <div className='col-lg-offset-1 col-lg-6 col-md-offset-1 col-md-5  col-sm-12  col-xs-12 footer-margin footer-col'>
           <ul className='ulnone ul-tc'>
             <li>
-              <a className='home1 footer-terms-space'>Terms &amp; Conditions</a>
+              <Link className='home1 footer-terms-space' to='/'>
+                Terms &amp; Conditions
+              </Link>
             </li>
             <li>
-              <a className='home1 footer-privacy-space'>Privacy Policy</a>
+              <Link className='home1 footer-privacy-space' to='/'>
+                Privacy Policy
+              </Link>
             </li>
           </ul>
         </div>

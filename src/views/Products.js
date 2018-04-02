@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Helmet from 'react-helmet'
 
 import LazyImage from '../components/LazyImage'
@@ -48,12 +49,9 @@ export default ({ page }) => (
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                   <div className='view-product'>
-                    <a
-                      className='view-products'
-                      onClick="location.href='product.html';"
-                    >
+                    <Link to='/' className='view-products'>
                       <b>View Product</b>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -77,9 +75,9 @@ export default ({ page }) => (
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                   <div className='view-product'>
-                    <a className='view-products'>
+                    <Link to='/' className='view-products'>
                       <b>View Product</b>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -103,9 +101,9 @@ export default ({ page }) => (
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                   <div className='view-product'>
-                    <a className='view-products'>
+                    <Link to='/' className='view-products'>
                       <b>View Product</b>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -129,9 +127,9 @@ export default ({ page }) => (
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                   <div className='view-product'>
-                    <a className='view-products'>
+                    <Link to='/' className='view-products'>
                       <b>View Product</b>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -155,9 +153,9 @@ export default ({ page }) => (
                 </div>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                   <div className='view-product'>
-                    <a className='view-products'>
+                    <Link to='/' className='view-products'>
                       <b>View Product</b>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -198,9 +196,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -221,9 +219,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -248,9 +246,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -275,9 +273,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -302,9 +300,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -329,9 +327,9 @@ export default ({ page }) => (
                   </div>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                     <div className='view-product'>
-                      <a className='view-products'>
+                      <Link to='/' className='view-products'>
                         <b>View Product</b>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

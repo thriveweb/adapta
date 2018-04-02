@@ -1,17 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 import Content from '../components/Content'
 
 export default ({ page }) => {
-  const { title } = page
   return (
     <div>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
       <div id='myCarousel' className='carousel slide' data-ride='carousel'>
-        <ol className='carousel-indicators'>
+        {/* <ol className='carousel-indicators'>
           <li data-target='#myCarousel' data-slide-to='0' className='active '>
             <div className='bg-indicators' style={{ right: '25px' }} />
           </li>
@@ -21,7 +18,7 @@ export default ({ page }) => {
           <li data-target='#myCarousel' data-slide-to='2'>
             <div className='bg-indicators' style={{ right: '-25px' }} />
           </li>
-        </ol>
+        </ol> */}
 
         <div className='carousel-inner'>
           <div className='item active'>
@@ -44,71 +41,72 @@ export default ({ page }) => {
             />
           </div>
         </div>
-      </div>
-      <div className='row text-position'>
-        <div className='row'>
-          <div className='row'>
-            <div className='container'>
-              <div className='row adapta-logo-div'>
-                <div className='col-lg-12 col-md-12 col-xs-12 col-sm-12'>
-                  <img src='images/AdaptaLogo.png' className='adapta-logo' />
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                  <p className='galvanized-steel-sto'>
-                    GALVANIZED STEEL STORM WATER OUTLETS FOR STREET KERBS
-                  </p>
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                  <p className='stormwater-outlets-d'>
-                    Stormwater outlets designed to fit every street kerb and
-                    specially made to suit the exact shape of your kerb and
-                    gutter. Unbreakable, heavy-duty galvanised steel
-                    construction - they won't break, shatter or fall apart! Take
-                    a look at our extensive range of AdaptaKerb models now
-                    available.
-                  </p>
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-lg-5 col-md-12 col-sm-12 col-xs-12'>
-                  <div className='mask-copy-1'>
-                    <a href='products.html' className=' view-products'>
-                      <b>View products</b>
-                    </a>
-                  </div>
-                </div>
-                <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
-                  <div className='row'>
-                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                      <p className='suits-institute-of-p'>
-                        Suits Institute of Public Works Engineering Kerb &amp;
-                        Channel Profiles:
-                      </p>
-                    </div>
-                  </div>
-                  <div className='row'>
-                    <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
-                      <img src='images/ipwea.png' className='ipwea' />
-                    </div>
-                  </div>
-                </div>
-                <div className='col-lg-3 col-md-12  col-sm-12 col-xs-12 hide-col'>
-                  <div className='row'>
-                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                      <p className='available-at-all-plu'>
-                        Available at all plumbing supply and hardware stores:
-                      </p>
-                    </div>
 
-                    <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
-                      <img src='images/Bitmap.png' className='bitmap' />
+        <div className='row text-position'>
+          <div className='row'>
+            <div className='row'>
+              <div className='container'>
+                <div className='row adapta-logo-div'>
+                  <div className='col-lg-12 col-md-12 col-xs-12 col-sm-12'>
+                    <img src='images/AdaptaLogo.png' className='adapta-logo' />
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <p className='galvanized-steel-sto'>
+                      GALVANIZED STEEL STORM WATER OUTLETS FOR STREET KERBS
+                    </p>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <p className='stormwater-outlets-d'>
+                      Stormwater outlets designed to fit every street kerb and
+                      specially made to suit the exact shape of your kerb and
+                      gutter. Unbreakable, heavy-duty galvanised steel
+                      construction - they won't break, shatter or fall apart!
+                      Take a look at our extensive range of AdaptaKerb models
+                      now available.
+                    </p>
+                  </div>
+                </div>
+                <div className='row'>
+                  <div className='col-lg-5 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='mask-copy-1'>
+                      <Link to='/products/' className=' view-products'>
+                        <b>View products</b>
+                      </Link>
                     </div>
-                    <div className='col-lg-2 col-sm-6 col-md-3 col-xs-4 bitmap-div reece-div'>
-                      <img src='images/reece.png' className='reece' />
+                  </div>
+                  <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
+                    <div className='row'>
+                      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
+                        <p className='suits-institute-of-p'>
+                          Suits Institute of Public Works Engineering Kerb &amp;
+                          Channel Profiles:
+                        </p>
+                      </div>
+                    </div>
+                    <div className='row'>
+                      <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
+                        <img src='images/ipwea.png' className='ipwea' />
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-lg-3 col-md-12  col-sm-12 col-xs-12 hide-col'>
+                    <div className='row'>
+                      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
+                        <p className='available-at-all-plu'>
+                          Available at all plumbing supply and hardware stores:
+                        </p>
+                      </div>
+
+                      <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
+                        <img src='images/Bitmap.png' className='bitmap' />
+                      </div>
+                      <div className='col-lg-2 col-sm-6 col-md-3 col-xs-4 bitmap-div reece-div'>
+                        <img src='images/reece.png' className='reece' />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -215,9 +213,9 @@ export default ({ page }) => {
           <div className='row button-space'>
             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center'>
               <div className='mask-copy-6'>
-                <a href='products.html' className=' view-products'>
+                <Link to='/products/' className=' view-products'>
                   <b>Explore Range</b>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
