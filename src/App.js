@@ -7,15 +7,13 @@ import _kebabCase from 'lodash/kebabCase'
 
 import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
+import Header from './components/Header'
 import Home from './views/Home'
-import About from './views/About'
-import Blog from './views/Blog'
-import SinglePost from './views/SinglePost'
+import Products from './views/Products'
+import Product from './views/Product'
 import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
-import Nav from './components/Nav'
 import Footer from './components/Footer'
-import GithubCorner from './components/GithubCorner'
 import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import AOS from './components/AOS'
 import Spinner from './components/Spinner'
@@ -69,14 +67,6 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    const posts = this.getDocuments('posts').filter(
-      post => post.status !== 'Draft'
-    )
-    const categoriesFromPosts = getCollectionTerms(posts, 'categories')
-    const postCategories = this.getDocuments('postCategories').filter(
-      category => categoriesFromPosts.indexOf(category.name.toLowerCase()) >= 0
-    )
-
     return (
       <Router>
         <div className='React-Wrap'>
@@ -84,7 +74,7 @@ class App extends Component {
           <AOS options={{ duration: 250 }} />
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />
+
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
@@ -106,7 +96,9 @@ class App extends Component {
             }
             headerScripts={headerScripts}
           />
-          <Nav />
+
+          <Header />
+
           <Switch>
             <Route
               path='/'
@@ -116,12 +108,16 @@ class App extends Component {
               )}
             />
             <Route
-              path='/about/'
+              path='/products/'
               exact
               render={props => (
-                <About page={this.getDocument('pages', 'about')} {...props} />
+                <Products
+                  page={this.getDocument('pages', 'products')}
+                  {...props}
+                />
               )}
             />
+
             <Route
               path='/contact/'
               exact
@@ -132,62 +128,6 @@ class App extends Component {
                   {...props}
                 />
               )}
-            />
-
-            {/* Blog Routes */}
-            <Route
-              path='/blog/'
-              exact
-              render={props => (
-                <Blog
-                  posts={posts}
-                  postCategories={postCategories}
-                  {...props}
-                />
-              )}
-            />
-            <Route
-              path='/blog/category/:slug/'
-              render={props => {
-                //  help needed
-                const slug = props.match.params.slug
-                const categoryPosts = posts.filter(post =>
-                  documentHasTerm(post, 'categories', slug)
-                )
-                return (
-                  <Blog
-                    posts={categoryPosts}
-                    postCategories={postCategories}
-                    showFeatured={false}
-                    {...props}
-                  />
-                )
-              }}
-            />
-            <Route
-              path='/blog/:slug/'
-              render={props => {
-                const slug = props.match.params.slug
-                const singlePostID = _findIndex(
-                  posts,
-                  item => _kebabCase(item.title) === slug
-                )
-                const singlePost = posts[singlePostID]
-                const nextPost = posts[singlePostID + 1]
-                const prevPost = posts[singlePostID - 1]
-                return (
-                  <SinglePost
-                    singlePost={singlePost}
-                    nextPostURL={
-                      nextPost && `/blog/${_kebabCase(nextPost.title)}/`
-                    }
-                    prevPostURL={
-                      prevPost && `/blog/${_kebabCase(prevPost.title)}/`
-                    }
-                    {...props}
-                  />
-                )
-              }}
             />
 
             <Route render={() => <NoMatch siteUrl={siteUrl} />} />
