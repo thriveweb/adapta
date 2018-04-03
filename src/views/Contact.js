@@ -104,60 +104,8 @@ export default ({ page, siteTitle }) => (
             </div>
           </div>
         </div>
-        <div className='info-div'>
-          <div className='col-lg-6  col-md-6 col-sm-12 col-xs-12'>
-            <div className='row contact-list-row'>
-              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
-                <input
-                  type='text'
-                  placeholder='NAME'
-                  className='inputfields '
-                />
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-            <div className='row contact-list-row'>
-              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
-                <input
-                  type='text'
-                  placeholder='PHONE NUMBER'
-                  className='inputfields '
-                />
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-            <div className='row contact-list-row'>
-              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
-                <input
-                  type='text'
-                  placeholder='EMAIL ADDRESS'
-                  className='inputfields '
-                />
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-            <div className='row contact-list-row'>
-              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
-                <textarea
-                  className='inputfields textarea-field'
-                  placeholder='ENQUIRY'
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className='row'>
-      <div className='col-lg-offset-7 col-lg-5 col-md-offset-5 col-md-6 col-sm-12  col-xs-12 enquire-col'>
-        <div className='mask-copy-6 enquire-btn enquire-button-1'>
-          <a className=' view-products'>
-            <b>Enquire</b>
-          </a>
-        </div>
+
+        <EnquiryFormSimpleAjax />
       </div>
     </div>
   </div>

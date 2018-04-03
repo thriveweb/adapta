@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 
-export default ({ page }) => (
+export default ({ product }) => (
   <div>
     <Helmet>
-      <title>{page.title}</title>
+      <title>{product.title}</title>
     </Helmet>
     <div className='row product-bacground'>
       <div className='row baground-shade'>

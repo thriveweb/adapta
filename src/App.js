@@ -66,6 +66,7 @@ class App extends Component {
       socialMediaCard,
       headerScripts
     } = globalSettings
+    const products = this.getDocuments('products')
 
     return (
       <Router>
@@ -113,9 +114,23 @@ class App extends Component {
               render={props => (
                 <Products
                   page={this.getDocument('pages', 'products')}
+                  products={products}
                   {...props}
                 />
               )}
+            />
+            <Route
+              path='/products/:slug'
+              exact
+              render={props => {
+                const slug = props.match.params.slug
+                const product = products.find(
+                  item => _kebabCase(item.title) === slug
+                )
+
+                if (!product) return <NoMatch siteUrl={siteUrl} />
+                return <Product product={product} {...props} />
+              }}
             />
 
             <Route

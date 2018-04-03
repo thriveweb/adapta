@@ -2,13 +2,11 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './EnquiryForm.css'
-
 const fetch = window.fetch
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
+    name: 'Enquiry Form',
     subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
@@ -64,62 +62,88 @@ class Form extends React.Component {
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=''
-        data-netlify-honeypot='_gotcha'
+        data-netlify-honeypot='helloworld'
       >
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>{this.state.alert}</div>
         )}
-        <label className='EnquiryForm--Label'>
-          <input
-            className='EnquiryForm--Input'
-            type='text'
-            placeholder='Name'
-            name='name'
-            required
-          />
-        </label>
-        <label className='EnquiryForm--Label'>
-          <input
-            className='EnquiryForm--Input'
-            type='email'
-            placeholder='Email'
-            name='email'
-            required
-          />
-        </label>
-        <label className='EnquiryForm--Label has-arrow'>
-          <select
-            className='EnquiryForm--Input EnquiryForm--Select'
-            name='type'
-            defaultValue='Type of Enquiry'
-            required
-          >
-            <option disabled hidden>
-              Type of Enquiry
-            </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
-            <option>Want to say hello</option>
-          </select>
-        </label>
-        <label className='EnquiryForm--Label'>
-          <textarea
-            className='EnquiryForm--Input EnquiryForm--Textarea'
-            placeholder='Message'
-            name='message'
-            rows='10'
-            required
-          />
-        </label>
-        <input type='text' name='_gotcha' style={{ display: 'none' }} />
-        {!!subject && <input type='hidden' name='subject' value={subject} />}
-        <input type='hidden' name='form-name' value={name} />
-        <input
-          className='Button EnquiryForm--SubmitButton'
-          type='submit'
-          value='Enquire'
-          disabled={this.state.disabled}
-        />
+        <div className='info-div'>
+          <div className='col-lg-6  col-md-6 col-sm-12 col-xs-12'>
+            <div className='row contact-list-row'>
+              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
+                <input
+                  type='text'
+                  placeholder='NAME'
+                  className='inputfields '
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+            <div className='row contact-list-row'>
+              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
+                <input
+                  type='text'
+                  placeholder='PHONE NUMBER'
+                  className='inputfields '
+                />
+              </div>
+            </div>
+          </div>
+          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+            <div className='row contact-list-row'>
+              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
+                <input
+                  type='email'
+                  placeholder='EMAIL ADDRESS'
+                  className='inputfields '
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+            <div className='row contact-list-row'>
+              <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
+                <textarea
+                  className='inputfields textarea-field'
+                  placeholder='ENQUIRY'
+                  required
+                />
+              </div>
+            </div>
+            <input type='text' name='helloworld' style={{ display: 'none' }} />
+            {!!subject && (
+              <input type='hidden' name='subject' value={subject} />
+            )}
+            <input type='hidden' name='form-name' value={name} />
+            <div
+              className='mask-copy-6 enquire-btn enquire-button-1'
+              style={{
+                clear: 'both',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
+            >
+              <input
+                className='view-products'
+                type='submit'
+                value='Enquire'
+                disabled={this.state.disabled}
+                style={{
+                  border: 'none',
+                  background: 'none',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  height: '100%'
+                }}
+              />
+            </div>
+          </div>
+        </div>
       </form>
     )
   }
