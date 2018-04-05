@@ -51,7 +51,7 @@
 		display: inline-block;
 	}
 	.footer-logo {
-     margin-left: 0%; 
+     margin-left: 0%;
 	}
 	.container-padding{
     	padding-left: 15px;
@@ -133,7 +133,7 @@
 	.product-image-one {
 		margin-top: 10px;
 		width: 300px;
-	
+
 	}
 	.Bitmap2 {
 		height: auto;
@@ -275,13 +275,13 @@
 		width: 100%;
 	}
 	.copyright-ada-pro {
-		
+
 		text-align: center;
         width: 100%;
         padding-top: 0px;
 
 	}
-	
+
 	.list-row-img {
 		width: 0px;
 		margin-left: 0px;
@@ -341,9 +341,9 @@
 	.logo {
 	    position: absolute;
 	    vertical-align: middle;
-	    top: 13px;
+	    top: 18px;
 	}
-	
+
     .rectangle-box1 {
 		border-right: none;
 		border-bottom:1px solid rgba(9, 55, 89,0.2);
@@ -378,7 +378,7 @@
 		color:white;
 	}
 	.prodbg-copy {
-	    
+
 	    position: absolute;
 	    z-index: -1;
 	    width: 100px;
@@ -411,7 +411,7 @@
 	}
 	.go-back-to-all-pro {
     	 margin-left: 4%;
-	 }    
+	 }
 	 .ulnone {
 	    margin-left: auto;
 	    max-width: 370px;
@@ -426,12 +426,12 @@
 
 @media only screen and (min-width: 450px) and (max-width: 720px){
 	.cross-section {
-	     max-width: 415px; 
+	     max-width: 415px;
 	}
 }
 @media only screen and (min-width: 320px) and (max-width: 449px){
 	.cross-section {
-	     max-width: 315px; 
+	     max-width: 315px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1000px){
@@ -492,7 +492,7 @@
 		width: 240px;
 	}
 	.mask {
-		min-height:563px;	
+		min-height:563px;
 	}
 	.home-bg {
 		background-image: none;
@@ -602,10 +602,10 @@
 	    font-size: 25px;
 	    font-weight: 600;
 	    line-height: 53px;
-	    text-align: center; 
+	    text-align: center;
 	    width: 100%;
 	    white-space: normal;
-	      
+
 	}
 	.rectangle-box1 {
 		    border-right: none;
@@ -615,10 +615,10 @@
 		    /*margin-left: 10px;*/
 	}
 	div.line-copy:hover {
-    
-     padding-left: 0px; 
-     padding-right: 0px; 
-   
+
+     padding-left: 0px;
+     padding-right: 0px;
+
 	}
 	.address-data {
    	 margin-left: 45%;
@@ -633,16 +633,16 @@
 	.prod-num3{
 	  right: 10%;
 	  padding-top: 8%;
-	}  
+	}
 	#footer {
   		/*margin-top:8%;*/
- 	}   
- 	.prod-num1 
+ 	}
+ 	.prod-num1
  	{
  		margin-bottom: 30px;
  	}
 	.explore-range {
-	     width: 132px; 
+	     width: 132px;
 	    color: #FFFFFF;
 	    font-family: "Cooper Hewitt";
 	    font-size: 16px;
@@ -658,7 +658,7 @@
 	   }
 	   .go-back-to-all-pro {
      		margin-left: 4%;
- 		}  
+ 		}
  		.ulnone {
     		/*margin-left: 19%;*/
 
@@ -749,10 +749,10 @@
 	}
 	.go-back-to-all-pro {
      	margin-left: 10%;
- 	} 
+ 	}
  	.ulnone {
     	/*margin-left: 8%;*/
-	}    
+	}
 	.footer-margin {
     	margin-top: -5%;
 	}
@@ -800,7 +800,7 @@
 		margin-left: 59%;
 	}
 	.contact-bg-copy {
-             margin-left: 0px; 
+             margin-left: 0px;
 	}
 	.info-list-row {
 		width: 100%;
@@ -835,7 +835,7 @@
 		margin-top: 67px;
 	}
 	.mask {
-		min-height:645px;	
+		min-height:645px;
 	}
 	.galvanized-steel-sto {
 		margin-left: auto;
@@ -887,10 +887,10 @@
 	.prod-num3{
 	  right: 10%;
 	  padding-top: 8%;
-	}  
+	}
 	/*#footer {
   		margin-top:8%;
- 	} */  
+ 	} */
 	.text-col {
 		left: 0px;
 	}
@@ -928,13 +928,13 @@
 }
 
 @media only screen and (min-width: 350px) and (max-width:359px) {
-	
+
 	.tele-data {
 		font-size: 11px;
 	}
 	.go-back-to-all-pro {
      	margin-left: 10%;
- 	}     
+ 	}
 }
 @media only screen and (min-width: 360px) and (max-width:640px) {
 	.total-div {
@@ -955,14 +955,14 @@
 	    bottom:48px;
 	    right:20px;
 	}
-	
+
 }
 @media only screen and (max-width: 364px) {
 	.text-col {
 		left :99px;
 	}
 	.list-row-img {
-	 	width: 0px; 
+	 	width: 0px;
 	}
 	.address-data {
 		width: 150px;
@@ -972,7 +972,7 @@
 		margin-left: 48%;
 	}
 	.tele-data {
-	     margin-top: 53px; 
+	     margin-top: 53px;
 	    margin-left: 54%;
 	    width: 150px;
 	    font-size: 14px;
@@ -1030,10 +1030,10 @@
 		position: relative !important;
     	right: 38px !important;
 	}
-	
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1229px){
-	.reece { 
+	.reece {
 		left: 25px;
     	position: relative;
 	 }
@@ -1054,6 +1054,6 @@
 	}
 	.enquire-button-1 {
 		margin-left: 0px;
-		margin-right: 0px;	
+		margin-right: 0px;
 	}
 }

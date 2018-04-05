@@ -39,9 +39,9 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
                 </Link>
               </li>
               <li>
-                <Link className='home1 footer-spec-space' to='/'>
+                {/* <Link className='home1 footer-spec-space' to='/'>
                   Specifications
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <Link className='home1 footer-contact-space' to='/contact/'>
@@ -54,14 +54,14 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
         <div className='col-lg-offset-1 col-lg-6 col-md-offset-1 col-md-5  col-sm-12  col-xs-12 footer-margin footer-col'>
           <ul className='ulnone ul-tc'>
             <li>
-              <Link className='home1 footer-terms-space' to='/'>
+              {/* <Link className='home1 footer-terms-space' to='/'>
                 Terms &amp; Conditions
-              </Link>
+              </Link> */}
             </li>
             <li>
-              <Link className='home1 footer-privacy-space' to='/'>
+              {/* <Link className='home1 footer-privacy-space' to='/'>
                 Privacy Policy
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </div>

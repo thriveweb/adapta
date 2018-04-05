@@ -37,7 +37,7 @@ export default ({ page, siteTitle }) => (
         </div>
       </div>
     </div>
-    <div className='container'>
+    <div className='container contact-container'>
       <div className='row'>
         <div className='col-lg-6  col-md-6 col-sm-12 col-xs-12'>
           <div className='info-div'>
