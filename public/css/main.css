@@ -1097,6 +1097,12 @@ div.view-product:hover{
   color: #111111 !important;
 }
 
+.overlay {
+  min-height: 750px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(27,58,89,0.3) 0%, #19344F 100%);
+  position: absolute;
+}
 
 .textarea-field {
     height: 100px;

@@ -22,6 +22,7 @@ export default ({ page }) => {
 
         <div className='carousel-inner'>
           <div className='item active'>
+            <div className='overlay'></div>
             <img
               src='images/hero-img.jpg'
               style={{ width: '100%', height: '100%' }}
