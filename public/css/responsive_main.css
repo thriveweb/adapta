@@ -442,13 +442,24 @@
 
 @media only screen and (max-width:767px){
 	/*    corosule style*/
+
     #myCarousel {
         min-height: 600px ;
+				margin-top: 6rem;
     }
 
     .item img {
         height: 600px !important;
     }
+
+		#header {
+			position: fixed;
+			top: 0;
+			z-index: 999999999;
+			background: white;
+			width: 100%;
+		}
+
 	/*collapse button css*/
 	.modal-collapse {
 		left:75%;
