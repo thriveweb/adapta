@@ -73,7 +73,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Content, name: content, widget: markdown}
       - {label: Bottom Diagram, name: bottom_diagram, widget: image}
       - {label: Bottom Full Image, name: bottom_full_image, widget: image}
-      
       # - label: "Categories"
       #   name: "categories"
       #   widget: "list"
