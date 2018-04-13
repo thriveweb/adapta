@@ -29,7 +29,13 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
               - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
-
+          - label: Contact info
+            name: contact_info
+            widget: object
+            fields:
+              - {label: Twitter Site Account, name: twitterSiteAccount, widget: text, required: false}
+              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
+              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
   - name: "pages"
     label: "Page"
     delete: false # Prevent users from deleting documents in this collection
@@ -40,26 +46,19 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home-page"
         fields:
+          - {label: Background Image, name: background_image, widget: image}
+          - {label: Content Logo, name: content_logo, widget: image}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Body, name: body, widget: markdown}
-      - file: "content/pages/about.md"
-        label: "About Page"
-        name: "about-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Section 1, name: section1, widget: markdown}
-          - {label: Section 2, name: section2, widget: markdown}
+          - {label: Content, name: content, widget: markdown}
+          - {label: Logo Content, name: logo_content, widget: text}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Suppliers Content, name: suppliers_content, widget: text}
+          - {label: Suppliers, name: suppliers_logo, widget: image}
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Body, name: body, widget: markdown}
-
+          - {label: Content, name: content, widget: markdown}
   - name: products
     label: Product
     editor:

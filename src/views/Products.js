@@ -34,10 +34,11 @@ export default ({ page, products }) => {
           </div>
         </div>
       </div>
+
       <div>
         <div className='row product-card'>
           {products.map(({ title = '', image }) => (
-            <div
+            <Link
               to={`/products/${productLink}`}
               className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
             >
@@ -62,7 +63,7 @@ export default ({ page, products }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
 
           {/* <div className='row show-num'>
