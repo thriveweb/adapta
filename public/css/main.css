@@ -1,220 +1,216 @@
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Light.otf") format("opentype");
-    font-weight: 900;
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Light.otf') format('opentype');
+  font-weight: 900;
 }
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Bold.otf") format("opentype");
-    font-weight: 600;
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Bold.otf') format('opentype');
+  font-weight: 600;
 }
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Heavy.otf") format("opentype");
-
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Heavy.otf') format('opentype');
 }
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Medium.otf") format("opentype");
-    font-weight: 500;
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Medium.otf') format('opentype');
+  font-weight: 500;
 }
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Semibold.otf") format("opentype");
-    font-weight: 900;
-
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Semibold.otf') format('opentype');
+  font-weight: 900;
 }
 @font-face {
-    font-family: Cooper Hewitt;
-    src: url("../fonts/CooperHewitt-Thin.otf") format("opentype");
-
-
+  font-family: Cooper Hewitt;
+  src: url('../fonts/CooperHewitt-Thin.otf') format('opentype');
 }
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 /*Header html Styles*/
 .left-margin {
-    margin-left: 6%;
+  margin-left: 6%;
 }
 .navbar-default {
-	background-color: white;
-	height: 60px;
-	border: none;
+  background-color: white;
+  height: 60px;
+  border: none;
 }
 .navbar-header {
-	float: none;
+  float: none;
 }
 .navbar-collapse {
-	margin-top: 10px;
-	border: none;
-	float: right;
-    overflow-x: hidden;
-    padding-right: 0px;
-    padding-left: 0px;
+  margin-top: 10px;
+  border: none;
+  float: right;
+  overflow-x: hidden;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .icon-bar-right {
-    margin-left: 9px;
+  margin-left: 9px;
 }
 .navbar-nav {
-    margin-top:20px;
-    margin-left: 20px;
-    margin-right: 0px;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    background-color: #fff;
-    right: 0px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Cooper Hewitt";
-    color: #004777;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: #fff;
+  right: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Cooper Hewitt';
+  color: #004777;
 }
 .navbar-default .navbar-nav > li > a {
-     color: #004777;
+  color: #004777;
 }
-.navbar-toggle  {
-	position: fixed;
-    top: 0px;
-    left: 82%;
-    border: none;
-    background-color: transparent !important;
-    margin-top: 3%;
+.navbar-toggle {
+  position: fixed;
+  top: 0px;
+  left: 82%;
+  border: none;
+  background-color: transparent !important;
+  margin-top: 3%;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #093455;
+  background-color: #093455;
 }
-.navbar-collapse.in{
-    overflow-y: hidden;
+.navbar-collapse.in {
+  overflow-y: hidden;
 }
 .header-homefont {
-    color: #FDDD41 !important;
-    font-family: "Cooper Hewitt";
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    line-height: 21px;
-    text-align: right;
-    border-right:1px solid #c5c5c5;
-    padding:0px 15px !important;
- }
- .header-font {
-    color: #004777;
-    font-family: "Cooper Hewitt";
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 21px;
-    text-align: right;
-    border-right:1px solid #c5c5c5;
-    padding:0px 18px !important;
- }
+  color: #fddd41 !important;
+  font-family: 'Cooper Hewitt';
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 21px;
+  text-align: right;
+  border-right: 1px solid #c5c5c5;
+  padding: 0px 15px !important;
+}
+.header-font {
+  color: #004777;
+  font-family: 'Cooper Hewitt';
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 21px;
+  text-align: right;
+  border-right: 1px solid #c5c5c5;
+  padding: 0px 18px !important;
+}
 
- .contact-border {
-    border:none;
- }
- /*modal styles*/
-.modal-logo{
-    margin-left: 2%;
-    position: fixed;
-    top: 2%;
+.contact-border {
+  border: none;
 }
-.modal-home{
-    text-align: center;
-    font-size: 34px;
-    letter-spacing: normal;
-    line-height: 133.3px;
-    font-family: Oswald;
-    font-weight: 600;
-    font-style: normal;
-    height: 130px;
-    opacity: 1.0;
-    color: #FDDD41;
+/*modal styles*/
+.modal-logo {
+  margin-left: 2%;
+  position: fixed;
+  top: 2%;
 }
-.modal-product{
-    text-align: center;
-    font-size: 34px;
-    letter-spacing: normal;
-    line-height: 133.3px;
-    font-family: Oswald;
-    font-weight: 600;
-    font-style: normal;
-    height: 110px;
-    opacity: 1.0;
-    color: #004777;
+.modal-home {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: normal;
+  line-height: 133.3px;
+  font-family: Oswald;
+  font-weight: 600;
+  font-style: normal;
+  height: 130px;
+  opacity: 1;
+  color: #fddd41;
 }
-.modal-contact{
-    text-align: center;
-    font-size: 34px;
-    letter-spacing: normal;
-    line-height: 133.3px;
-    font-family: Oswald;
-    font-weight: 600;
-    font-style: normal;
-    height: 400px;
-    opacity: 1.0;
-    color: #004777;
+.modal-product {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: normal;
+  line-height: 133.3px;
+  font-family: Oswald;
+  font-weight: 600;
+  font-style: normal;
+  height: 110px;
+  opacity: 1;
+  color: #004777;
+}
+.modal-contact {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: normal;
+  line-height: 133.3px;
+  font-family: Oswald;
+  font-weight: 600;
+  font-style: normal;
+  height: 400px;
+  opacity: 1;
+  color: #004777;
 }
 .modal-content {
-/*     height:100%; */
-    border: none;
-    margin: 0px;
-    border-radius: 0px;
+  /*     height:100%; */
+  border: none;
+  margin: 0px;
+  border-radius: 0px;
 }
 .modal-body {
-    /*height: 100%;
+  /*height: 100%;
     margin-top: 0px;*/
-    top: 10%;
+  top: 10%;
 }
 .home-row {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 .modal-dialog {
-    margin: 0px;
-    border: none;
+  margin: 0px;
+  border: none;
 }
 .design-manufacture {
-    /*position: absolute;*/
-    top: 37px;
-    text-align: left;
-    font-size: 11px;
-    left: 0px;
-    width: 324px;
-    letter-spacing: 1px;
-    font-weight: 300;
-    font-family: "Montserrat",sans-serif;
-    color: #004777;
-    line-height: 14px;
+  /*position: absolute;*/
+  top: 37px;
+  text-align: left;
+  font-size: 11px;
+  left: 0px;
+  width: 324px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #004777;
+  line-height: 14px;
 }
 .logo {
-    background-image: url('../images/adapta_logo1.svg');
-/*     height: 44px; */
-    width: 175px;
-    left: 0px;
-    position: absolute;
-    /*vertical-align: middle;*/
-    top: 22px;
-    padding: 22px;
-    background-repeat: no-repeat;
- }
+  background-image: url('../images/adapta_logo1.svg');
+  /*     height: 44px; */
+  width: 175px;
+  left: 0px;
+  position: absolute;
+  /*vertical-align: middle;*/
+  top: 22px;
+  padding: 22px;
+  background-repeat: no-repeat;
+}
 /*New style for retina image*/
-@media (-webkit-min-device-pixel-ratio: 2), (max-width: 550px){
-    .logo{
-      background-image: url("../images/adapta_logo1.svg");
-      background-size: 160px 46px;
-      background-repeat: no-repeat;
-      top:22px;
-    }
+@media (-webkit-min-device-pixel-ratio: 2), (max-width: 550px) {
+  .logo {
+    background-image: url('../images/adapta_logo1.svg');
+    background-size: 160px 46px;
+    background-repeat: no-repeat;
+    top: 22px;
+  }
 }
 
 .position-data {
-    position: absolute;
+  position: absolute;
 }
 
 /*Footer Page Styles*/
-.download-file-div{
-   margin-top: 90px;
-   margin-left: 20%;
+.download-file-div {
+  margin-top: 90px;
+  margin-left: 20%;
 }
 .Bitmap2 {
   background-image: url('../images/Bitmap2.png');
@@ -224,33 +220,32 @@ body {
   z-index: -1;
 }
 .adapta-kerb-specifica {
-    min-height: 83px;
-    max-width: 677px;
-    color: #FFFFFF;
-    font-family: Oswald,'sans-serif' !important;
-    font-size: 56px;
-    font-weight: 600;
-    /*text-align: right;*/
-    line-height: 83px;
-    white-space: nowrap;
+  min-height: 83px;
+  max-width: 677px;
+  color: #ffffff;
+  font-family: Oswald, 'sans-serif' !important;
+  font-size: 56px;
+  font-weight: 600;
+  /*text-align: right;*/
+  line-height: 83px;
+  white-space: nowrap;
 }
 
 .download-adapta-kerb {
-
-    color: #FFFFFF;
-    font-family: Montserrat,'sans-serif';
-    font-size: 21px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    white-space: nowrap;
+  color: #ffffff;
+  font-family: Montserrat, 'sans-serif';
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  white-space: nowrap;
 }
 
 .mask-copy-7 {
-   /* box-sizing: border-box;
+  /* box-sizing: border-box;
     width: 232px;
     height: 70px;
     border: 6px solid rgba(9,55,89,0.7);
@@ -259,43 +254,42 @@ body {
     box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
     margin-right: auto;
     margin-top: 70px;*/
-    box-sizing: border-box;
-    max-width: 185px;
-    border: 4px solid rgba(9,55,89,0.7);
-    border-radius: 29px;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    margin-top: 108px;
-    margin-bottom: 20px;
-    position: relative;
-    margin-right: auto;
+  box-sizing: border-box;
+  max-width: 185px;
+  border: 4px solid rgba(9, 55, 89, 0.7);
+  border-radius: 29px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  margin-top: 108px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-right: auto;
 }
 .download-file {
-    height: 19px;
-    width: 131px;
-    color: #093759;
-    font-family: "Cooper Hewitt";
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    line-height: 24px;
-    text-align: center;
-    text-shadow: 0 2px 4px rgba(9,55,89,0.08);
-    margin: 17px auto;
-
+  height: 19px;
+  width: 131px;
+  color: #093759;
+  font-family: 'Cooper Hewitt';
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
+  margin: 17px auto;
 }
 .policy-doc-row {
-    margin: 80px 0px 40px 0px;
-    padding: 0px;
+  margin: 80px 0px 40px 0px;
+  padding: 0px;
 }
 .footer-logo {
-    background-image: url('../images/adapta_logo2.svg');
-    padding: 60px;
-    background-repeat: no-repeat;
-    margin-left: 55%;
+  background-image: url('../images/adapta_logo2.svg');
+  padding: 60px;
+  background-repeat: no-repeat;
+  margin-left: 55%;
 }
 .footer-col {
-    padding: 0px;
+  padding: 0px;
 }
 /*.footer-bg {
     background-image: url('../images/BG Copy 8.svg');
@@ -308,53 +302,52 @@ body {
 }*/
 
 #footer {
-    background-color: rgba(9,55,89,0.05);
+  background-color: rgba(9, 55, 89, 0.05);
 }
 .ulnone {
-    list-style: none;
+  list-style: none;
 }
 
 .home1 {
-    color: rgba(9,55,89,0.7);
-    font-family: "Cooper Hewitt";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 37px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    text-align: left;
-    list-style: none;
-    padding: 0px 5px;
+  color: rgba(9, 55, 89, 0.7);
+  font-family: 'Cooper Hewitt';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: left;
+  list-style: none;
+  padding: 0px 5px;
 }
 .terms-conditions {
-    height: 24px;
-    width: 146px;
-    color: rgba(9,55,89,0.7);
-    font-family: "Cooper Hewitt";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    margin-top: 10px
+  height: 24px;
+  width: 146px;
+  color: rgba(9, 55, 89, 0.7);
+  font-family: 'Cooper Hewitt';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 10px;
 }
 .privacy-policy {
-    height: 24px;
-    width: 103px;
-    color: rgba(9,55,89,0.7);
-    font-family: "Cooper Hewitt";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: -1.3%;
+  height: 24px;
+  width: 103px;
+  color: rgba(9, 55, 89, 0.7);
+  font-family: 'Cooper Hewitt';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -1.3%;
 }
 
 .rectangle-5 {
-    min-height: 52px;
-    background-color: #093759;
-
+  min-height: 52px;
+  background-color: #093759;
 }
 
 #list {
@@ -363,34 +356,31 @@ body {
 }
 
 .copyright-ada {
-    height: 15px;
-    width: 275px;
-    color: rgba(255,255,255,0.7);
-    font-family: Cooper Hewitt;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 19px;
-    padding-top: 15px;
-    letter-spacing: 1px;
-    padding-left: 0px;
-    white-space: nowrap;
+  height: 15px;
+  width: 275px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Cooper Hewitt;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  padding-left: 0px;
+  white-space: nowrap;
 }
 .copyright-ada-pro {
-    height: 15px;
-    width: 275px;
-    color: rgba(255,255,255,0.7);
-    font-family: "Cooper Hewitt";
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 19px;
-    padding-top: 15px;
-
+  height: 15px;
+  width: 275px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Cooper Hewitt';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  padding-top: 15px;
 }
 .site-by-thrive {
-   float: right;
+  float: right;
 }
-
-
 
 /*Index Page Styles*/
 /*Courosel Styles*/
@@ -401,37 +391,37 @@ body {
 }
 */
 #myCarousel {
-    min-height: 750px ;
+  min-height: 750px;
 }
 
 .item img {
-    height: 750px !important;
+  height: 750px !important;
 }
 .corousel-indicators .active {
-    background-color: none !important;
+  background-color: none !important;
 }
 .carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #000 \9;
-    background-color: rgba(0, 0, 0, 0);
-     border:none !important;
-    border-radius: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: none !important;
+  border-radius: 10px;
 }
 .carousel-indicators {
-    position: absolute;
-    bottom: 20px;
-    left: 35%;
-    z-index: 15;
-    width: 78%;
-    padding-left: 0;
-    margin-right: 30%;
-    text-align: right;
-    list-style: none;
+  position: absolute;
+  bottom: 20px;
+  left: 35%;
+  z-index: 15;
+  width: 78%;
+  padding-left: 0;
+  margin-right: 30%;
+  text-align: right;
+  list-style: none;
 }
 
 .contact-container {
@@ -439,514 +429,504 @@ body {
 }
 
 .carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: transparent !important;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: transparent !important;
 }
 
 .bg-indicators {
-    position: absolute;
-    background-image: url('../images/corousel.png');
-    width: 26px;
-    height: 26px;
-    margin:0px 10px;
+  position: absolute;
+  background-image: url('../images/corousel.png');
+  width: 26px;
+  height: 26px;
+  margin: 0px 10px;
 }
-.carousel-indicators  .active .bg-indicators {
-    background-image: url('../images/corousel_1.png') !important;
+.carousel-indicators .active .bg-indicators {
+  background-image: url('../images/corousel_1.png') !important;
 }
 .text-position {
-    position: absolute;
-    top: 0;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .row {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-.container-padding{
-    padding-left: 57px;
+.container-padding {
+  padding-left: 57px;
 }
-.home-bg{
-    background-image: url('../images/bg.jpg');
-    background-size: cover;
-    min-height: 685px;
-    margin-left: 0px;
-    margin-right: 0px;
+.home-bg {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  min-height: 685px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-.home-bg1{
-    min-height: 685px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-image: url('../images/bg1.svg');
-    background-repeat: no-repeat;
+.home-bg1 {
+  min-height: 685px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url('../images/bg1.svg');
+  background-repeat: no-repeat;
 }
 .mask {
-    background-color: #093759;
-    min-height: 685px;
-    opacity: 0.7;
-    /*background: linear-gradient(180deg, rgba(27,58,89,0) 0%, #19344F 100%);*/
-    margin-left: 0px;
-    margin-right: 0px;
+  background-color: #093759;
+  min-height: 685px;
+  opacity: 0.7;
+  /*background: linear-gradient(180deg, rgba(27,58,89,0) 0%, #19344F 100%);*/
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .adapta-logo-div {
-    margin-top: 127px;
-    /*max-width: 377px;*/
+  margin-top: 127px;
+  /*max-width: 377px;*/
 }
-.adapta-logo{
-   /* width: 282px;
+.adapta-logo {
+  /* width: 282px;
     height: 80px;*/
 }
 .galvanized-steel-sto {
-
-    min-height: 72px;
-    margin-top: 30px;
-    max-width: 557px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 36px;
+  min-height: 72px;
+  margin-top: 30px;
+  max-width: 557px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 36px;
 }
 .stormwater-outlets-d {
-    min-height: 161px;
-    max-width: 557px;
-    letter-spacing: 0px;
-    max-width: 475px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 1px;
-    text-shadow: 0 1px 5px rgba(0,0,0,0.51);
-    position: relative;
-
+  min-height: 161px;
+  max-width: 557px;
+  letter-spacing: 0px;
+  max-width: 475px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.51);
+  position: relative;
 }
-.mask-copy-1{
-    box-sizing: border-box;
-    max-width: 185px;
-    border: 4px solid rgba(59, 127, 178, 0.7);
-    border-radius: 29px;
-    background-color: #FCD103;
-    box-shadow: 0 2px 30px rgba(9,55,89,0.24);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
+.mask-copy-1 {
+  box-sizing: border-box;
+  max-width: 185px;
+  border: 4px solid rgba(59, 127, 178, 0.7);
+  border-radius: 29px;
+  background-color: #fcd103;
+  box-shadow: 0 2px 30px rgba(9, 55, 89, 0.24);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
 }
 .view-products {
-    margin: 10px 0px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-align: center;
-    text-shadow: 0 2px 4px rgba(9,55,89,0.08);
-    line-height: 30px;
-
- }
- .suits-institute-of-p {
-    min-height: 65px;
-    max-width: 360px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 105%;
-
+  margin: 10px 0px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
+  line-height: 13px;
+}
+.suits-institute-of-p {
+  min-height: 65px;
+  max-width: 360px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105%;
 }
 .suits-col {
-    position: relative;
-    bottom: 60px;
+  position: relative;
+  bottom: 60px;
 }
 .available-at-all-plu {
-    min-height: 60px;
-    max-width: 360px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 2px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 128%;
-
+  min-height: 60px;
+  max-width: 360px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 128%;
 }
 .available-col {
-    position: relative;
-    bottom: 62px;
-    right: 20px;
+  position: relative;
+  bottom: 62px;
+  right: 20px;
 }
 .logo-div-btm-img {
-    text-align: center;
-    position: relative;
-    bottom:48px;
-    right:20px;
+  text-align: center;
+  position: relative;
+  bottom: 48px;
+  right: 20px;
 }
 .ipwea-div {
-    position: relative;
-    /*bottom: 50px;*/
+  position: relative;
+  /*bottom: 50px;*/
 }
 .reece {
-    right: 12px;
-    position: relative;
+  right: 12px;
+  position: relative;
 }
 .list-row {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .bg-copy {
-    margin-top: -15px;
-    position: absolute;
-    z-index: -1;
+  margin-top: -15px;
+  position: absolute;
+  z-index: -1;
 }
 .bg-copy1 {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 .upvc-connector-to-ta {
-    height: 84px;
-    max-width: 265px;
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 28px;
-    margin-top: 45px;
-    margin-left: 3%;
+  height: 84px;
+  max-width: 265px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 45px;
+  margin-left: 3%;
 }
 
 .one {
-
-    width: 20px;
-    color: #093759;
-    font-family: Oswald;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 56px;
-    margin-top: 42px;
-    margin-left: 62px;
+  width: 20px;
+  color: #093759;
+  font-family: Oswald;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 42px;
+  margin-left: 62px;
 }
 .mask-copy-6 {
-    box-sizing: border-box;
-    max-width: 185px;
-    border: 5px solid rgba(255,244,193,1);
-    /*border: 6px solid rgba(252,209,3,0.25);*/
-    border-radius: 29px;
-    background-color: #FCD103;
-    /*box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);*/
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  box-sizing: border-box;
+  max-width: 185px;
+  border: 5px solid rgba(255, 244, 193, 1);
+  /*border: 6px solid rgba(252,209,3,0.25);*/
+  border-radius: 29px;
+  background-color: #fcd103;
+  /*box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);*/
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
-.range-div{
-    line-height: 20px;
+.range-div {
+  line-height: 20px;
 }
 .tele-data {
-    height: 84px;
-    max-width: 265px;
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 28px;
-    margin-top: 45px;
-    margin-left: 3%;
+  height: 84px;
+  max-width: 265px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 45px;
+  margin-left: 3%;
 }
 .explore-range {
-    height: 19px;
-    width: 132px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    line-height: 24px;
-    text-align: center;
-    text-shadow: 0 2px 4px rgba(9,55,89,0.08);
-    margin: 0px;
-    vertical-align: middle;
-    margin-left: 39px;
-    margin-top: 18px;
+  height: 19px;
+  width: 132px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
+  margin: 0px;
+  vertical-align: middle;
+  margin-left: 39px;
+  margin-top: 18px;
 }
 
 /*Products Html Page styles*/
-.bg-product{
-    height: 165px;
-    /*margin-top:15px;*/
-    background-image: url('../images/bgScreenShot.jpg');
-    background-size: cover;
+.bg-product {
+  height: 165px;
+  /*margin-top:15px;*/
+  background-image: url('../images/bgScreenShot.jpg');
+  background-size: cover;
 }
-.prod-text{
-    color: #FFFFFF;
-    font-family: Oswald;
-    font-size: 56px;
-    font-weight: 600;
-    vertical-align: middle;
-    min-height: 83px;
-    max-width: 244px;
+.prod-text {
+  color: #ffffff;
+  font-family: Oswald;
+  font-size: 56px;
+  font-weight: 600;
+  vertical-align: middle;
+  min-height: 83px;
+  max-width: 244px;
 }
-.bg-product-color{
-    background: linear-gradient(201deg, rgba(27,58,89,0.5), #19344F );
-    height: auto;
+.bg-product-color {
+  background: linear-gradient(201deg, rgba(27, 58, 89, 0.5), #19344f);
+  height: auto;
 }
-.lineHeight{
-    line-height: 165px;
+.lineHeight {
+  line-height: 165px;
 }
-.adapta-product{
-    margin-top: 40px;
-    float: right;
+.adapta-product {
+  margin-top: 40px;
+  float: right;
 }
-div.mask-copy-7:hover{
-    background-color: #FCD103!important;
-    box-sizing: border-box;
+div.mask-copy-7:hover {
+  background-color: #fcd103 !important;
+  box-sizing: border-box;
 }
 div.line-copy:hover {
-    box-sizing: border-box;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    box-shadow: 0 2px 28px 0 rgba(9,55,89,0.09);
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-shadow: 0 2px 28px 0 rgba(9, 55, 89, 0.09);
 }
 .rectangle-box1 {
-    border-right: 1px solid  rgba(9, 55, 89,0.2);
-    border-bottom: 1px solid  rgba(9, 55, 89,0.2);
-    padding-bottom: 20px;
-    padding-right: 20px;
-
+  border-right: 1px solid rgba(9, 55, 89, 0.2);
+  border-bottom: 1px solid rgba(9, 55, 89, 0.2);
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
-.show-num
-{
-        display: none;
+.show-num {
+  display: none;
 }
 .rectangle-box2 {
-    border-right: none;
-    border-bottom: 1px solid  rgba(9, 55, 89,0.2);
-    padding-bottom: 20px;
-    padding-right: 20px;
+  border-right: none;
+  border-bottom: 1px solid rgba(9, 55, 89, 0.2);
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 .rectangle-box3 {
-     border-right: 1px solid  rgba(9, 55, 89,0.2);
-    border-bottom: none;
-    padding-bottom: 20px;
-    padding-right: 20px;
+  border-right: 1px solid rgba(9, 55, 89, 0.2);
+  border-bottom: none;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
-.product-img{
-   width: 300px;
-   height: 300px;
+.product-img {
+  width: 300px;
+  height: 300px;
 }
-.product-card{
-    margin-top: 60px;
+.product-card {
+  margin-top: 60px;
 }
-.product-card1{
-    margin-top: 18px;
-    text-align: center;
-    width: 100%;
+.product-card1 {
+  margin-top: 18px;
+  text-align: center;
+  width: 100%;
 }
-.view-product-active{
-    border: 5px solid rgba(255,244,193,1);
-    background-color: rgb(9,55,89);
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    box-sizing: border-box;
-    max-width: 185px;
-    border-radius: 29px;
-    height: 53px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+.view-product-active {
+  border: 5px solid rgba(255, 244, 193, 1);
+  background-color: rgb(9, 55, 89);
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  box-sizing: border-box;
+  max-width: 185px;
+  border-radius: 29px;
+  height: 53px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .view-product {
-    box-sizing: border-box;
-    max-width: 185px;
-    border: 4px solid rgba(59, 127, 178, 0.7);
-    border-radius: 29px;
-    background-color: rgb(9,55,89);
-    height: 53px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  box-sizing: border-box;
+  max-width: 185px;
+  border: 4px solid rgb(151, 184, 208);
+  border-radius: 29px;
+  background-color: rgb(9, 55, 89);
+  height: 53px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.product-title{
-    color: #111111;
-    font-family: Oswald,'sans-serif';
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 53px;
-    text-align: left;
-    white-space: nowrap;
-    min-height: 53px;
-    width: 386px;
+.product-title {
+  color: #111111;
+  font-family: Oswald, 'sans-serif';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 53px;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
-div.view-product:hover{
-    background-color: #FCD103!important;
+div.view-product:hover {
+  border: 4px solid #ded4a6;
+  background-color: #fcd103 !important;
 }
-.rowbtn{
-    text-align: center;
-    margin-bottom: 20px;
-
-    display: none;
+.rowbtn {
+  text-align: center;
+  margin-bottom: 20px;
 }
-
-
 
 /*Prodct html Stles*/
 .top-margin {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.product-bg1{
-    /*min-height: 685px;*/
-    margin-left: 0px;
-    margin-right: 0px;
-    background-image: url('../images/bg1.svg');
-    background-repeat: no-repeat;
+.product-bg1 {
+  /*min-height: 685px;*/
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url('../images/bg1.svg');
+  background-repeat: no-repeat;
 }
 .product-bacground {
-    min-height: 168px;
-    background-image: url('../images/bgScreenshot.jpg');
+  min-height: 168px;
+  background-image: url('../images/bgScreenshot.jpg');
 }
 
 .baground-shade {
-    min-height: 168px;
-    background: linear-gradient(201deg, rgba(27,58,89,0.5), #19344F    );
+  min-height: 168px;
+  background: linear-gradient(201deg, rgba(27, 58, 89, 0.5), #19344f);
 }
 .para-div-place {
-    /*width:400px;*/
-    margin: auto;
+  /*width:400px;*/
+  margin: auto;
 }
 .ak-1-standard-layba {
-    color: #FFFFFF;
-    font-family: Oswald;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 83px;
-    margin-top: 40px;
-    white-space: nowrap;
+  color: #ffffff;
+  font-family: Oswald;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 83px;
+  margin-top: 40px;
+  white-space: nowrap;
 }
 .home-products-ak {
-    color: rgba(255,255,255,0.4);
-    font-family: Montserrat;
-    white-space: nowrap;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 17px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Montserrat;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
 }
 .logo-div-place {
-     width:257px;
-     margin: auto;
-     margin-bottom: 20px;
+  width: 257px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 .product-logo {
-    /*height: 60px;*/
-    margin-top: 50px;
+  /*height: 60px;*/
+  margin-top: 50px;
 }
-.product-image-one{
-    height:auto;
-    /* float: right; */
-    /* margin-right: 14%; */
-    margin-top: 18%;
+.product-image-one {
+  height: auto;
+  /* float: right; */
+  /* margin-right: 14%; */
+  margin-top: 18%;
 }
 .line-copy-5 {
-    box-sizing: border-box;
-    height: 58%;
-    border: 0.5px solid #ccc;
-    margin-left: -4.5%;
-    float: right;
-    margin-top: 3%;
+  box-sizing: border-box;
+  height: 58%;
+  border: 0.5px solid #ccc;
+  margin-left: -4.5%;
+  float: right;
+  margin-top: 3%;
 }
 .ak-1-standard-layba1 {
-    color: #111111;
-    font-family: Oswald;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 52px;
- /* white-space: nowrap; */
-    margin-left: 0%;
+  color: #111111;
+  font-family: Oswald;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  /* white-space: nowrap; */
+  margin-left: 0%;
 }
 .dimensions-top-length {
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 300;
-    line-height: 28px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 28px;
 }
 .base-length-305-mm-h {
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    white-space: nowrap;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  white-space: nowrap;
 }
-.box-qty{
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 900;
-    line-height: 28px;
-    white-space: nowrap;
+.box-qty {
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 28px;
+  white-space: nowrap;
 }
 .box-qty-8-units-1 {
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 0.3%;
-    position: absolute;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 0.3%;
+  position: absolute;
 }
 .features {
-    color: #111111;
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 25px;
-    white-space: nowrap;
-    margin-top:30px;
+  color: #111111;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 25px;
+  white-space: nowrap;
+  margin-top: 30px;
 }
-.total-div{
-    right:3%;
+.total-div {
+  right: 3%;
 }
-.stormwater-div{
-    right: 3%;
+.stormwater-div {
+  right: 3%;
 }
 .bullet-points {
-     width: 20px;
-     height: 20px;
-     /*margin-left: -40px;*/
-     margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  /*margin-left: -40px;*/
+  margin-top: 5px;
 }
 .stormwater-pipe-conn {
-    opacity: 0.7;
-    color: #111111;
-    font-family: "Cooper Hewitt";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+  opacity: 0.7;
+  color: #111111;
+  font-family: 'Cooper Hewitt';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 .go-back-to-all-pro {
-    /*color: #093759;
+  /*color: #093759;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
@@ -955,142 +935,139 @@ div.view-product:hover{
     margin-top: 20px;
     min-height: 17px;
     max-width: 233px;*/
-    color: #093759;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 17px;
-    margin-left: 10.7%;
-    margin-top: 20px;
-    min-height: 17px;
-    max-width: 233px;
+  color: #093759;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-left: 10.7%;
+  margin-top: 20px;
+  min-height: 17px;
+  max-width: 233px;
 }
 .cross-section {
-    display: block;
-    margin: 0 auto;
-   /* height: 35%;*/
-    margin-top: 3%;
-    /* width: 100%;*/
-     /* max-width: 400px;*/
+  display: block;
+  margin: 0 auto;
+  /* height: 35%;*/
+  margin-top: 3%;
+  /* width: 100%;*/
+  /* max-width: 400px;*/
 }
-.background2{
-    /*margin-left: -2%;*/
-    width: 100%;
-    margin-top: 2.5%;
+.background2 {
+  /*margin-left: -2%;*/
+  width: 100%;
+  margin-top: 2.5%;
 }
 .cross-section-text {
-    text-align: center;
-    margin-top: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: "Cooper Hewitt";
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Cooper Hewitt';
 }
-
 
 /*contact page styles*/
 .contacts {
-    color: #fff;
-    font-family: Oswald;
-    /*font-size: 32px;*/
-    font-size: 47px;
-    font-weight: 600;
-    line-height: 52px;
-    white-space: nowrap;
-    /*margin-left: -2%;*/
-     margin-top: 70px;
+  color: #fff;
+  font-family: Oswald;
+  /*font-size: 32px;*/
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 52px;
+  white-space: nowrap;
+  /*margin-left: -2%;*/
+  margin-top: 70px;
 }
-.contacts-heading{
-    margin-top: 57px;
+.contacts-heading {
+  margin-top: 57px;
 }
 .contact-adapta-produ {
-    min-height: 62px;
-    max-width: 491px;
-    color: #111111;
-    font-family: Oswald;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 62px;
-    margin-top: 50px;
-    padding-left: 18px;
+  min-height: 62px;
+  max-width: 491px;
+  color: #111111;
+  font-family: Oswald;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-top: 50px;
+  padding-left: 18px;
 }
 .contact-us-by-the-nu {
-    height: 62px;
-    max-width: 1103px;
-    color: #111111;
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 30px;
-    padding-left: 18px;
+  height: 62px;
+  max-width: 1103px;
+  color: #111111;
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-left: 18px;
 }
 .contact-bg-copy {
-    margin-left: -45px;
+  margin-left: -45px;
 }
 .list-row {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 .bg-copy {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 .bg-copy1 {
   position: absolute;
-    z-index: -1;
+  z-index: -1;
 }
 .address-data {
-    height: 84px;
-    width: 286px;
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 28px;
-    margin-top: 45px;
-    margin-left: 3%;
-    /* text-align: center; */
-    text-justify: inter-word;
+  height: 84px;
+  width: 286px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 45px;
+  margin-left: 3%;
+  /* text-align: center; */
+  text-justify: inter-word;
 }
 .mail {
-
 }
 .mail-text {
-
 }
 .tele-text {
-    width: 263px;
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 28px;
-    margin-top: 55px;
-    text-align: left;
-    margin-left: 62px;
+  width: 263px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 55px;
+  text-align: left;
+  margin-left: 62px;
 }
 .tele-text1 {
-    /*height: 84px;*/
-    width: 263px;
-    color: rgba(51,51,51,0.8);
-    font-family: "Cooper Hewitt";
-    font-size: 17px;
-    font-weight: 500;
-    /*line-height: 28px;*/
-    margin-left: 62px;
-    text-align: left;
+  /*height: 84px;*/
+  width: 263px;
+  color: rgba(51, 51, 51, 0.8);
+  font-family: 'Cooper Hewitt';
+  font-size: 17px;
+  font-weight: 500;
+  /*line-height: 28px;*/
+  margin-left: 62px;
+  text-align: left;
 }
 .inputfields {
-    height: 62px;
-    width: 450px;
-    border: 0px solid #e3e8ea;
-    padding: 10px;
-    box-shadow: 0 2px 28px 2px rgba(9,55,89,0.09);
-    border-radius: 4px;
-    font-weight: 300;
-    font-size :15px;
-    margin-top: 10px;
-    font-family: Montserrat;
-    letter-spacing: 1px;
+  height: 62px;
+  width: 450px;
+  border: 0px solid #e3e8ea;
+  padding: 10px;
+  box-shadow: 0 2px 28px 2px rgba(9, 55, 89, 0.09);
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: Montserrat;
+  letter-spacing: 1px;
 }
 
 .inputfields::placeholder {
@@ -1100,62 +1077,62 @@ div.view-product:hover{
 .overlay {
   min-height: 750px;
   width: 100%;
-  background: linear-gradient(90deg, rgba(27,58,89,0.3) 0%, #19344F 100%);
+  background: linear-gradient(90deg, rgba(27, 58, 89, 0.3) 0%, #19344f 100%);
   position: absolute;
 }
 
 .textarea-field {
-    height: 100px;
-    width: 450px;
-    border: 1px solid #e3e8ea;
-    padding: 10px;
+  height: 100px;
+  width: 450px;
+  border: 1px solid #e3e8ea;
+  padding: 10px;
 }
 
 .image-one {
-    width: 35px;
-    color: #093759;
-    font-family: Oswald;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 56px;
-    margin-top: 54px;
-    margin-left: 12px;
+  width: 35px;
+  color: #093759;
+  font-family: Oswald;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 54px;
+  margin-left: 12px;
 }
 .conctact-p {
-    font-size: 15px;
+  font-size: 15px;
 }
 .contact-list-row {
-    margin-top: 1px;
+  margin-top: 1px;
 }
-.enquire-col{
-    position: relative;
-    bottom: 78px;
+.enquire-col {
+  position: relative;
+  bottom: 78px;
 }
 .info-div {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 .enquire-button {
-      box-sizing: border-box;
-    max-width: 185px;
-    border: 4px solid rgba(59, 127, 178, 0.7);
-    /*border: 6px solid rgba(252,209,3,0.25);*/
-    border-radius: 29px;
-    background-color: #FCD103;
-    /*box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);*/
-    box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  box-sizing: border-box;
+  max-width: 185px;
+  border: 4px solid rgba(59, 127, 178, 0.7);
+  /*border: 6px solid rgba(252,209,3,0.25);*/
+  border-radius: 29px;
+  background-color: #fcd103;
+  /*box-shadow: 0 2px 30px 0 rgba(9,55,89,0.24);*/
+  box-shadow: 0 2px 30px 0 rgba(9, 55, 89, 0.24);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 .explore-text {
-     margin: 10px 0px;
-    color: #FFFFFF;
-    font-family: "Cooper Hewitt";
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-align: center;
-    text-shadow: 0 2px 4px rgba(9,55,89,0.08);
+  margin: 10px 0px;
+  color: #ffffff;
+  font-family: 'Cooper Hewitt';
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
 }

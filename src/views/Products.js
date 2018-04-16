@@ -6,7 +6,7 @@ import _kebabCase from 'lodash/kebabCase'
 import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 
-export default ({ page, products }) => {
+export default ({ page, products, product }) => {
   console.log(products)
   const productLink = _kebabCase(products[0]['title'])
   return (

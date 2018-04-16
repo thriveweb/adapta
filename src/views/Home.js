@@ -22,7 +22,7 @@ export default ({ page }) => {
 
         <div className='carousel-inner'>
           <div className='item active'>
-            <div className='overlay'></div>
+            <div className='overlay' />
             <img
               src='images/hero-img.jpg'
               style={{ width: '100%', height: '100%' }}
@@ -54,21 +54,10 @@ export default ({ page }) => {
                 </div>
                 <div className='row'>
                   <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                    <p className='galvanized-steel-sto'>
-                      GALVANIZED STEEL STORM WATER OUTLETS FOR STREET KERBS
-                    </p>
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                    <p className='stormwater-outlets-d'>
-                      Stormwater outlets designed to fit every street kerb and
-                      specially made to suit the exact shape of your kerb and
-                      gutter. Unbreakable, heavy-duty galvanised steel
-                      construction - they won't break, shatter or fall apart!
-                      Take a look at our extensive range of AdaptaKerb models
-                      now available.
-                    </p>
+                    <Content
+                      source={page.content}
+                      className='stormwater-outlets-d'
+                    />
                   </div>
                 </div>
                 <div className='row'>
@@ -82,31 +71,29 @@ export default ({ page }) => {
                   <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
                     <div className='row'>
                       <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                        <p className='suits-institute-of-p'>
-                          Suits Institute of Public Works Engineering Kerb &amp;
-                          Channel Profiles:
-                        </p>
+                        <Content
+                          source={page.logo_content}
+                          className='suits-institute-of-p'
+                        />
                       </div>
                     </div>
                     <div className='row'>
                       <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
-                        <img src='images/ipwea.png' className='ipwea' />
+                        <img src={page.logo} className='ipwea' />
                       </div>
                     </div>
                   </div>
                   <div className='col-lg-3 col-md-12  col-sm-12 col-xs-12 hide-col'>
                     <div className='row'>
                       <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                        <p className='available-at-all-plu'>
-                          Available at all plumbing supply and hardware stores:
-                        </p>
+                        <Content
+                          source={page.suppliers_content}
+                          className='available-at-all-plu'
+                        />
                       </div>
 
                       <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
-                        <img src='images/Bitmap.png' className='bitmap' />
-                      </div>
-                      <div className='col-lg-2 col-sm-6 col-md-3 col-xs-4 bitmap-div reece-div'>
-                        <img src='images/reece.png' className='reece' />
+                        <img src={page.suppliers_logo} className='bitmap' />
                       </div>
                     </div>
                   </div>
@@ -130,7 +117,7 @@ export default ({ page }) => {
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <div className='range-div'>
                     <p className='upvc-connector-to-ta '>
-                      UPVC connector to take 90/100mm stormwater pipes
+                      {page.list_items.list_item_1}
                     </p>
                   </div>
                 </div>
@@ -146,7 +133,7 @@ export default ({ page }) => {
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <div className='range-div'>
                     <p className='upvc-connector-to-ta upvc-connector-to-ta-p4 '>
-                      Special locking device - lock into concrete
+                      {page.list_items.list_item_2}
                     </p>
                   </div>
                 </div>
@@ -161,7 +148,7 @@ export default ({ page }) => {
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <p className='upvc-connector-to-ta '>
-                    Heavy-duty galvanized steel and designed to AS3500 & AS2876
+                    {page.list_items.list_item_3}
                   </p>
                 </div>
               </div>
@@ -176,7 +163,7 @@ export default ({ page }) => {
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <div className='range-div'>
                     <p className='upvc-connector-to-ta upvc-connector-to-ta-p1'>
-                      Quick and easy to install
+                      {page.list_items.list_item_4}
                     </p>
                   </div>
                 </div>
@@ -191,7 +178,7 @@ export default ({ page }) => {
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <p className='upvc-connector-to-ta upvc-connector-to-ta-p2'>
-                    Fits all kerb and channel profiles
+                    {page.list_items.list_item_5}
                   </p>
                 </div>
               </div>
@@ -205,7 +192,7 @@ export default ({ page }) => {
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
                   <p className='upvc-connector-to-ta upvc-connector-to-ta-p3'>
-                    Largest range available - 12 models
+                    {page.list_items.list_item_6}
                   </p>
                 </div>
               </div>

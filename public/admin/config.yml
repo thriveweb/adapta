@@ -54,6 +54,16 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Logo, name: logo, widget: image}
           - {label: Suppliers Content, name: suppliers_content, widget: text}
           - {label: Suppliers, name: suppliers_logo, widget: image}
+          - label: List items
+            name: list_items
+            widget: object
+            fields:
+              - {label: List Item 1, name: list_item_1, widget: text, required: false}
+              - {label: List Item 2, name: list_item_2, widget: text, required: false}
+              - {label: List Item 3, name: list_item_3, widget: text, required: false}
+              - {label: List Item 4, name: list_item_4, widget: text, required: false}
+              - {label: List Item 5, name: list_item_5, widget: text, required: false}
+              - {label: List Item 6, name: list_item_6, widget: text, required: false}
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
@@ -69,7 +79,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: Title, name: title, widget: string}
       - {label: Image, name: image, widget: image}
-      - {label: Dimensions, name: content, widget: markdown}
+      - {label: Dimensions, name: dimensions, widget: markdown}
       - {label: Content, name: content, widget: markdown}
       - {label: Bottom Diagram, name: bottom_diagram, widget: image}
       - {label: Bottom Full Image, name: bottom_full_image, widget: image}

@@ -115,6 +115,7 @@ class App extends Component {
                 <Products
                   page={this.getDocument('pages', 'products')}
                   products={products}
+                  product={this.getDocument('pages', 'product')}
                   {...props}
                 />
               )}
