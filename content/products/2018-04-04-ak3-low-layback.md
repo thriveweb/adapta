@@ -7,6 +7,8 @@ dimensions: |-
   Base Length: 305mm
 
   Height: 130mm
+
+  8 units (1 box)
 content: >-
   **FEATURES :**
 
