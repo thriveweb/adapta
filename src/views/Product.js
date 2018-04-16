@@ -87,10 +87,6 @@ export default ({ product }) => (
       <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
         <div className='center-img-div'>
           <img src={product.bottom_diagram} className='cross-section' />
-          <p className='cross-section-text'>
-            Cross-Section Profile &amp; Dimensions: AdaptaKerb installed in
-            Concrete Kerb &amp; Channel
-          </p>
         </div>
       </div>
     </div>
