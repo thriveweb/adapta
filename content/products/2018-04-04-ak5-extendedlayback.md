@@ -1,6 +1,12 @@
 ---
 title: AK5-ExtendedLayback
 image: /images/uploads/ak5-extendedlayback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
