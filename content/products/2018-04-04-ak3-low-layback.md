@@ -1,6 +1,12 @@
 ---
 title: AK3-Low Layback
 image: /images/uploads/ak3-low layback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
