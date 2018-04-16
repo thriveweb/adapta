@@ -14,5 +14,12 @@ logo_content: 'Suits Institute of Public Works Engineering Kerb & Channel Profil
 logo: /images/uploads/ipwea.png
 suppliers_content: 'Available at all plumbing supply and hardware stores:'
 suppliers_logo: /images/uploads/Bitmap.png
+list_items:
+  list_item_1: UPVC connector to take 90/100mm stormwater pipes
+  list_item_2: Special locking device - lock into concrete
+  list_item_3: Heavy-duty galvanized steel and designed to AS3500 & AS2876
+  list_item_4: Quick and easy to install
+  list_item_5: Fits all kerb and channel profiles
+  list_item_6: Largest range available - 12 models
 ---
 
