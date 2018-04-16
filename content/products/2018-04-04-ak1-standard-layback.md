@@ -1,6 +1,12 @@
 ---
 title: ak1-standard layback
 image: /images/uploads/ak1-standard layback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
