@@ -1,6 +1,12 @@
 ---
 title: AK7-StubbyLayback
 image: /images/uploads/ak7-stubbylayback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
