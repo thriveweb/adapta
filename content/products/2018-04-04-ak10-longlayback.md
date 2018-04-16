@@ -1,6 +1,12 @@
 ---
 title: AK10-LongLayback
 image: /images/uploads/ak10-longlayback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
