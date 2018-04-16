@@ -1,6 +1,12 @@
 ---
 title: AK6-ShortTopLayback
 image: /images/uploads/ak6-shorttoplayback.jpg
+dimensions: |-
+  Top Length: 50mm
+
+  Base Length: 305mm
+
+  Height: 130mm
 content: >-
   **FEATURES :**
 
