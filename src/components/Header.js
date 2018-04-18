@@ -136,7 +136,8 @@ class Header extends React.Component {
                         <NavLink
                           onClick={this.closeModal}
                           to='/'
-                          className='header-homefont'
+                          exact
+                          className='header-font'
                         >
                           HOME
                         </NavLink>

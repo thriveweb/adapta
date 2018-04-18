@@ -29,13 +29,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
               - {label: Twitter Creator Account, name: twitterCreatorAccount, widget: string, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
-          - label: Contact info
-            name: contact_info
-            widget: object
-            fields:
-              - {label: Twitter Site Account, name: twitterSiteAccount, widget: text, required: false}
-              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
-              - {label: Twitter Site Account, name: twitterSiteAccount, widget: string, required: false}
+
   - name: "pages"
     label: "Page"
     delete: false # Prevent users from deleting documents in this collection
@@ -46,14 +40,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home-page"
         fields:
-          - {label: Background Image, name: background_image, widget: image}
-          - {label: Content Logo, name: content_logo, widget: image}
-          - {label: Title, name: title, widget: string}
-          - {label: Content, name: content, widget: markdown}
-          - {label: Logo Content, name: logo_content, widget: text}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Suppliers Content, name: suppliers_content, widget: text}
-          - {label: Suppliers, name: suppliers_logo, widget: image}
+          - {label: Background Image, name: background_image, widget: image, required: false}
+          - {label: Content Logo, name: content_logo, widget: image, required: false}
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Content, name: content, widget: markdown, required: false}
+          - {label: Logo Content, name: logo_content, widget: text, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
+          - {label: Suppliers Content, name: suppliers_content, widget: text, required: false}
+          - {label: Suppliers, name: suppliers_logo, widget: image, required: false}
           - label: List items
             name: list_items
             widget: object
@@ -68,7 +62,11 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact Page"
         name: "contact-page"
         fields:
-          - {label: Content, name: content, widget: markdown}
+          - {label: Content, name: content, widget: markdown, required: false}
+          - {label: Address, name: address, widget: text, required: false}
+          - {label: Phone, name: phone, widget: string, required: false}
+          - {label: Fax, name: fax, widget: text, required: false}
+          - {label: Email, name: email, widget: text, required: false}
   - name: products
     label: Product
     editor:
@@ -77,12 +75,13 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: Title, name: title, widget: string}
-      - {label: Image, name: image, widget: image}
-      - {label: Dimensions, name: dimensions, widget: markdown}
-      - {label: Content, name: content, widget: markdown}
-      - {label: Bottom Diagram, name: bottom_diagram, widget: image}
-      - {label: Bottom Full Image, name: bottom_full_image, widget: image}
+      - {label: Title, name: title, widget: string, required: false}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Dimensions, name: dimensions, widget: markdown, required: false}
+      - {label: Content, name: content, widget: markdown, required: false}
+      - {label: Bottom Diagram, name: bottom_diagram, widget: image, required: false}
+      - {label: Bottom Diagram Excerpt, name: bottom_diagram_excerpt, widget: string, required: false}
+      - {label: Bottom Full Image, name: bottom_full_image, widget: image, required: false}
       # - label: "Categories"
       #   name: "categories"
       #   widget: "list"
