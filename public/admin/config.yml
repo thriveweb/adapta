@@ -58,10 +58,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: List Item 4, name: list_item_4, widget: text, required: false}
               - {label: List Item 5, name: list_item_5, widget: text, required: false}
               - {label: List Item 6, name: list_item_6, widget: text, required: false}
-          - label: Download
-            name: download
-            widget: object
-              - {label: List Item 1, name: list_item_1, widget: text, required: false}
+          
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"

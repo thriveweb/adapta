@@ -7,29 +7,20 @@ import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 
 export default ({ page, products, product }) => {
-  console.log(products)
   const productLink = _kebabCase(products[0]['title'])
   return (
     <div>
       <Helmet>
         <title>{page.title}</title>
       </Helmet>
-      <div className='row product-bacground'>
-        <div className='row baground-shade'>
-          <div className='product-bg1'>
-            <div className='col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12 '>
-              <div className='row'>
-                <div className='col-lg-12'>
-                  <div className='para-div-place'>
-                    <p className='ak-1-standard-layba'>PRODUCTS</p>
-                  </div>
-                </div>
+      <div className='product-bacground'>
+        <div className='baground-shade prod'>
+          <div className='container_main'>
+            <div className='two_col top_product'>
+              <div className='col'>
+                <h1>Products</h1>
               </div>
-            </div>
-          </div>
-          <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12'>
-            <div className='logo-div-place'>
-              <img src='/images/AdaptaLogo.png' className='product-logo' />
+              <div className='col' />
             </div>
           </div>
         </div>
@@ -38,11 +29,10 @@ export default ({ page, products, product }) => {
       <div>
         <div className='row product-card'>
           {products.map(({ title = '', image }) => (
-            // <Link
-            //   to={`/products/${productLink}`}
-            //   className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
-            // >
-            <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'>
+            <Link
+              to={`/products/${productLink}`}
+              className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
+            >
               <div className='image-card'>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <div className='row'>
@@ -64,7 +54,7 @@ export default ({ page, products, product }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
 
           {/* <div className='row show-num'>

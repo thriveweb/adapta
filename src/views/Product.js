@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Helmet from 'react-helmet'
+import _kebabCase from 'lodash/kebabCase'
 
 import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
@@ -24,7 +26,9 @@ export default ({ product }) => (
       </div>
     </div>
     <div className='container_main main_content'>
-      <p className='back_btn'>{'<'} GO BACK TO ALL PRODUCTS</p>
+      <Link to='/products' className='back_btn'>
+        GO BACK TO ALL PRODUCTS
+      </Link>
       <div className='two_col product'>
         <div className='col'>
           <img src={product.image} className='product-image-one' />

@@ -249,6 +249,7 @@
 	    letter-spacing: 1.3px;
 	    line-height: 26.6px;
 	    opacity: 1.0;
+			  margin: auto;
 	}
 	.address-data {
 		margin-left: 26%;
@@ -584,7 +585,7 @@
 		border: 8px solid rgba(255,244,193,1);
 	}
 	.view-products {
-		margin:15px 0px;
+		margin: auto;
 	}
 	.design-manufacture
 	{

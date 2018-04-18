@@ -77,7 +77,12 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
           <p className='copyright-ada'>© 2018 Copyright Adapta Products</p>
         </div>
         <div className='col-lg-1 col-md-1 col-sm-12 col-xs-12'>
-          <p className='copyright-ada-pro site-by'>Site by: Thrive Web</p>
+          <p className='copyright-ada-pro site-by'>
+            <a href='https://thriveweb.com.au/' title='Web Design Gold Coast'>
+              Web Design
+            </a>{' '}
+            - THRIVE
+          </p>
         </div>
       </div>
     </div>
