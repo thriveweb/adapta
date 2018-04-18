@@ -14,7 +14,11 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
       </div>
       <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center'>
         <div className='mask-copy-7'>
-          <a href="/ADAPTA-KERB_Specifications_FINAL.pdf" target="_blank" className='download-file'>
+          <a
+            href='/ADAPTA-KERB_Specifications_FINAL.pdf'
+            target='_blank'
+            className='download-file'
+          >
             <b>Download File</b>
           </a>
         </div>
