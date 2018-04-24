@@ -1,6 +1,6 @@
 ---
 order: '10'
-title: AK7-StubbyLayback
+title: AK7 - Stubby Layback
 image: /images/uploads/ak7-stubbylayback.jpg
 dimensions: |-
   Top Length: 50mm
