@@ -1,6 +1,6 @@
 ---
 order: '1'
-title: ak1-standard layback
+title: AK1 - Standard Layback
 image: /images/uploads/ak1-standard layback.jpg
 dimensions: |-
   Top Length: 50mm
