@@ -1,4 +1,5 @@
 ---
+order: '10'
 title: AK7-StubbyLayback
 image: /images/uploads/ak7-stubbylayback.jpg
 dimensions: |-
@@ -19,9 +20,13 @@ content: >-
   * Heavy-Duty Galvanized Steel
 
   * Locking device: Permanently locks kerb into concrete - will not move or pop
-  out. Simply fold down lock tabls and AdaptaKerb will anchor into new or
+  out. Simply fold down lock tabs and AdaptaKerb will anchor into new or
   existing concrete.
 bottom_diagram: /images/uploads/Cross Section profiles - AdaptaKerb-large.png
+bottom_diagram_excerpt: >-
+  CROSS-SECTION PROFILE & DIMENSIONS:   ADAPTAKERB INSTALLED IN CONCRETE KERB &
+  CHANNEL
 bottom_full_image: /images/uploads/background2.png
 date: '2018-04-04'
 ---
+
