@@ -1,6 +1,6 @@
 ---
 order: '9'
-title: AK6-ShortTopLayback
+title: AK6 - ShortTopLayback
 image: /images/uploads/ak6-shorttoplayback.jpg
 dimensions: |-
   Top Length: 50mm
