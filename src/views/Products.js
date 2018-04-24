@@ -45,13 +45,13 @@ export default ({ page, products, product }) => {
                         <img src={image} className='product-img' />
                       </div>
                     </div>
-                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
+                    {/* <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 rowbtn'>
                       <div className='view-product'>
                         <div className='view-products'>
                           <b>View Product</b>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
