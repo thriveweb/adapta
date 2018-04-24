@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: List Item 4, name: list_item_4, widget: text, required: false}
               - {label: List Item 5, name: list_item_5, widget: text, required: false}
               - {label: List Item 6, name: list_item_6, widget: text, required: false}
-          
+
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
@@ -76,6 +76,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
+      - {label: Product Order, name: order, widget: number, required: true}
       - {label: Title, name: title, widget: string, required: false}
       - {label: Image, name: image, widget: image, required: false}
       - {label: Dimensions, name: dimensions, widget: markdown, required: false}

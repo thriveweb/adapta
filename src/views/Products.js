@@ -9,7 +9,7 @@ import Content from '../components/Content.js'
 
 export default ({ page, products, product }) => {
   const productLink = _kebabCase(products[0]['title'])
-  const productsSorted = _sortBy(products, order)
+  const productsSorted = _sortBy(products, 'order')
   return (
     <div>
       <Helmet>
