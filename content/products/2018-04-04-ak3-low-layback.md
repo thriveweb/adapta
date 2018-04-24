@@ -1,6 +1,6 @@
 ---
-order: '1'
-title: AK3-Low Layback
+order: '6'
+title: AK3 - Low Layback
 image: /images/uploads/ak3-low layback.jpg
 dimensions: |-
   Top Length: 50mm
