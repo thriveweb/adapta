@@ -2,12 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Helmet from 'react-helmet'
 import _kebabCase from 'lodash/kebabCase'
+import _sortBy from 'lodash/sortBy'
 
 import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 
 export default ({ page, products, product }) => {
   const productLink = _kebabCase(products[0]['title'])
+  const productsSorted = _sortBy(products, order)
   return (
     <div>
       <Helmet>
@@ -28,7 +30,7 @@ export default ({ page, products, product }) => {
 
       <div>
         <div className='row product-card'>
-          {products.map(({ title = '', image }) => (
+          {productsSorted.map(({ title = '', image }) => (
             // <Link
             //   to={`/products/${productLink}`}
             //   className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
