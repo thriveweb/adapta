@@ -1,5 +1,6 @@
 ---
-title: AK2W-BarrierW
+order: '3'
+title: AK2W - Barrier W
 image: /images/uploads/ak2w-barrierw.jpg
 dimensions: |-
   Top Length: 50mm
@@ -23,3 +24,4 @@ bottom_diagram: /images/uploads/Cross Section profiles - AdaptaKerb-large.png
 bottom_full_image: /images/uploads/background2.png
 date: '2018-04-04'
 ---
+
