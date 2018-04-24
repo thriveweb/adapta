@@ -1,4 +1,5 @@
 ---
+order: '11'
 title: AK10-LongLayback
 image: /images/uploads/ak10-longlayback.jpg
 dimensions: |-
@@ -8,7 +9,9 @@ dimensions: |-
 
   Height: 130mm
 
-  8 units (1 box)
+
+
+  Box Qty: 8 units (1 box)
 content: >-
   **FEATURES :**
 
@@ -22,6 +25,10 @@ content: >-
   out. Simply fold down lock tabls and AdaptaKerb will anchor into new or
   existing concrete.
 bottom_diagram: /images/uploads/Cross Section profiles - AdaptaKerb-large.png
+bottom_diagram_excerpt: >-
+  CROSS-SECTION PROFILE & DIMENSIONS:  ADAPTAKERB INSTALLED IN CONCRETE KERB &
+  CHANNEL
 bottom_full_image: /images/uploads/background2.png
 date: '2018-04-04'
 ---
+
