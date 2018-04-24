@@ -1,6 +1,6 @@
 ---
-order: '10'
-title: AK10-LongLayback
+order: '11'
+title: AK10 - Long Layback
 image: /images/uploads/ak10-longlayback.jpg
 dimensions: |-
   Top Length: 50mm
