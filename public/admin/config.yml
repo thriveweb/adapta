@@ -71,7 +71,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: products
     label: Product
     editor:
-      preview: false
+      preview: true
     folder: content/products
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
