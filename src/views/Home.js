@@ -24,20 +24,20 @@ export default ({ page }) => {
           <div className='item active'>
             <div className='overlay' />
             <img
-              src='images/hero-img.jpg'
+              src='/images/hero-img.jpg'
               style={{ width: '100%', height: '100%' }}
             />
           </div>
 
           <div className='item'>
             <img
-              src='images/hero-img.png'
+              src='/images/hero-img.png'
               style={{ width: '100%', height: '100%' }}
             />
           </div>
           <div className='item'>
             <img
-              src='images/hero-img.png'
+              src='/images/hero-img.png'
               style={{ width: '100%', height: '100%' }}
             />
           </div>
@@ -49,7 +49,7 @@ export default ({ page }) => {
               <div className='container'>
                 <div className='row adapta-logo-div'>
                   <div className='col-lg-12 col-md-12 col-xs-12 col-sm-12'>
-                    <img src='images/AdaptaLogo.png' className='adapta-logo' />
+                    <img src='/images/AdaptaLogo.png' className='adapta-logo' />
                   </div>
                 </div>
                 <div className='row'>
@@ -110,8 +110,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-4 col-xs-4 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>1</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
@@ -126,8 +126,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-4 col-xs-4 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>2</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
@@ -142,8 +142,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-4  col-xs-4 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>3</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
@@ -156,8 +156,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-12  col-xs-12 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>4</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
@@ -172,8 +172,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-4  col-xs-4 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>5</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
@@ -186,8 +186,8 @@ export default ({ page }) => {
             <div className='col-lg-4 col-md-6 col-sm-12'>
               <div className='row list-row'>
                 <div className='col-lg-4 col-md-4  col-sm-4  col-xs-4 list-row-img'>
-                  <img src='images/BG.svg' className='bg-copy' />
-                  <img src='images/BG.svg' className='bg-copy1' />
+                  <img src='/images/BG.svg' className='bg-copy' />
+                  <img src='/images/BG.svg' className='bg-copy1' />
                   <p className='one'>6</p>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-8 col-xs-8 text-col'>
