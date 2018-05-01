@@ -989,9 +989,8 @@ div.view-product:hover {
 .contacts-heading {
   margin-top: 57px;
 }
-.contact-adapta-produ {
-  min-height: 62px;
-  max-width: 491px;
+
+.Contact--Content h2 {
   color: #111111;
   font-family: Oswald;
   font-size: 42px;
@@ -1000,16 +999,16 @@ div.view-product:hover {
   margin-top: 50px;
   padding-left: 18px;
 }
-.contact-us-by-the-nu {
-  height: 62px;
-  max-width: 1103px;
-  color: #111111;
+
+.Contact--Content p {
   font-family: 'Cooper Hewitt';
+  color: #111111;
   font-size: 19px;
   font-weight: 500;
   line-height: 30px;
   padding-left: 18px;
 }
+
 .contact-bg-copy {
   margin-left: -45px;
 }
