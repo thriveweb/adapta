@@ -28,11 +28,7 @@ export default ({ page, siteTitle }) => (
       <div className='container'>
         <div className='row'>
           <div className='col-lg-11 col-md-10 col-sm-10'>
-            <p className='contact-adapta-produ'>CONTACT ADAPTA PRODUCTS</p>
-            <p className='contact-us-by-the-nu'>
-              Contact us by the numbers below or fill out the form and we will
-              get back to you shortly
-            </p>
+            <Content className='Contact--Content' source={page.content} />
           </div>
         </div>
       </div>
@@ -55,9 +51,7 @@ export default ({ page, siteTitle }) => (
                   <img src='/images/email.svg' className='image-one' />
                 </div>
                 <div className='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
-                  <p className='address-data'>
-                    5/23 Enterprise AvenueTweed Heads South NSW 2486
-                  </p>
+                  <p className='address-data'>{page.address}</p>
                 </div>
               </div>
             </div>
@@ -76,8 +70,8 @@ export default ({ page, siteTitle }) => (
                 </div>
                 <div className='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
                   <p className='tele-data'>
-                    t: 07 5522 1644
-                    <br />f: 07 5522 1655
+                    t: {page.phone}
+                    <br />f: {page.fax}
                   </p>
                 </div>
               </div>
@@ -96,9 +90,7 @@ export default ({ page, siteTitle }) => (
                   <img src='/images/mail.svg' className='image-one' />
                 </div>
                 <div className='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
-                  <p className='address-data email-data'>
-                    info@adaptaproducts.com.au
-                  </p>
+                  <p className='address-data email-data'>{page.email}</p>
                 </div>
               </div>
             </div>
