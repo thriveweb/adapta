@@ -1321,6 +1321,11 @@ ul.nav li a.active {
   align-content: center;
 }
 
+.row.product-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 950px) {
   .Bitmap2 {
     height: auto;
