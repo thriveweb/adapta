@@ -15,7 +15,7 @@ content: >-
 logo_content: 'Suits Institute of Public Works Engineering Kerb & Channel Profiles:'
 logo: /images/uploads/ipwea.png
 suppliers_content: 'Available at all plumbing supply and hardware stores:'
-suppliers_logo: /images/uploads/Bitmap.png
+suppliers_logo: /images/uploads/logos.png
 list_items:
   list_item_1: UPVC connector to take 90/100mm stormwater pipes
   list_item_2: Special locking device - lock into concrete
