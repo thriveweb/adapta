@@ -1,5 +1,7 @@
 ---
-background_image: /images/uploads/background-slide.jpg
+image_s_one: /images/uploads/hero-img.jpg
+image_s_two: /images/uploads/slide-1.jpg
+image_s_three: /images/uploads/slide-2.jpg
 content_logo: /images/uploads/AdaptaLogo.png
 title: Adapta Kerb
 content: >-
