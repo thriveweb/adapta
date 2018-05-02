@@ -9,33 +9,34 @@ import Content from '../components/Content'
 export default ({ page }) => {
   return (
     <div>
-      <Swiper
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false
-        }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        }}
-      >
-        <img
-          className='swiper-slide'
-          src={page.image_s_one}
-          style={{ width: '100%', height: '100%' }}
-        />
-        <img
-          className='swiper-slide'
-          src={page.image_s_two}
-          style={{ width: '100%', height: '100%' }}
-        />
-        <img
-          className='swiper-slide'
-          src={page.image_s_three}
-          style={{ width: '100%', height: '100%' }}
-        />
-      </Swiper>
-
+      <div className='slide_bg'>
+        <Swiper
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false
+          }}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          }}
+        >
+          <img
+            className='swiper-slide'
+            src={page.image_s_one}
+            style={{ width: '100%', height: '100%' }}
+          />
+          <img
+            className='swiper-slide'
+            src={page.image_s_two}
+            style={{ width: '100%', height: '100%' }}
+          />
+          <img
+            className='swiper-slide'
+            src={page.image_s_three}
+            style={{ width: '100%', height: '100%' }}
+          />
+        </Swiper>
+      </div>
       <div className='row text-position'>
         <div className='row'>
           <div className='row'>

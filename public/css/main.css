@@ -1441,9 +1441,19 @@ ul.nav li a.active {
   }
 }
 
-.swiper-container-rtl .swiper-button-prev {
-  left: 20px;
+.slide_bg {
+  background-color: #093759;
 }
-.swiper-container-rtl .swiper-button-next {
-  right: 20px;
+
+.swiper-container.swiper-container-horizontal {
+  opacity: 0.7;
+}
+
+.swiper-button-prev {
+  left: 20px !important;
+  z-index: 10000 !important;
+}
+.swiper-button-next {
+  right: 20px !important;
+  z-index: 10000 !important;
 }
