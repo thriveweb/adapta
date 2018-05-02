@@ -9,7 +9,7 @@ import Content from '../components/Content.js'
 
 export default ({ page, products, product }) => {
   const productLink = _kebabCase(products[0]['title'])
-  const productsSorted = _sortBy(products, 'order')
+  const productsSorted = _sortBy(products, product => parseInt(product.order))
   return (
     <div>
       <Helmet>
@@ -22,7 +22,9 @@ export default ({ page, products, product }) => {
               <div className='col'>
                 <h1>Products</h1>
               </div>
-              <div className='col' />
+              <div className='col'>
+                <img src='/images/AdaptaLogo.png' />
+              </div>
             </div>
           </div>
         </div>
@@ -30,11 +32,13 @@ export default ({ page, products, product }) => {
 
       <div>
         <div className='row product-card'>
-          {productsSorted.map(({ title = '', image }) => (
+          {productsSorted.map(({ title = '', image, order }) => (
             <Link
               to={`/products/${productLink}`}
               className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
+              key={title}
             >
+              {console.log(order)}
               <div className='image-card'>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <div className='row'>

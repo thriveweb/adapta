@@ -265,10 +265,11 @@ body {
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 0;
   text-align: center;
   text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
   margin: 17px auto;
+  display: inline-block;
 }
 .policy-doc-row {
   margin: 80px 0px 40px 0px;

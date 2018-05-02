@@ -18,7 +18,10 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home-page"
         fields:
-          - {label: Background Image, name: background_image, widget: image, required: false}
+          - {label: Slide Item One, name: image_s_one, widget: image, required: false}
+          - {label: Slide Item Two, name: image_s_two, widget: image, required: false}
+          - {label: Slide Item Three, name: image_s_three, widget: image, required: false}
+          # - {label: Background Image, name: background_image, widget: image, required: false}
           - {label: Content Logo, name: content_logo, widget: image, required: false}
           - {label: Title, name: title, widget: string, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
