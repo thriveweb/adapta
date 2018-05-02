@@ -11,6 +11,9 @@ export default ({ page }) => {
     <div>
       <div className='slide_bg'>
         <Swiper
+          loop={{
+            loop: true
+          }}
           autoplay={{
             delay: 4500,
             disableOnInteraction: false
