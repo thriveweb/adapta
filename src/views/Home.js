@@ -1,100 +1,90 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
+import Swiper from 'react-id-swiper'
+import 'react-id-swiper/src/styles/css/swiper.css'
 
 import Content from '../components/Content'
 
 export default ({ page }) => {
   return (
     <div>
-      <div id='myCarousel' className='carousel slide' data-ride='carousel'>
-        <ol className='carousel-indicators'>
-          <li data-target='#myCarousel' data-slide-to='0' className='active '>
-            <div className='bg-indicators' style={{ right: '25px' }} />
-          </li>
-          <li data-target='#myCarousel' data-slide-to='1'>
-            <div className='bg-indicators' style={{ right: '0px' }} />
-          </li>
-          <li data-target='#myCarousel' data-slide-to='2'>
-            <div className='bg-indicators' style={{ right: '-25px' }} />
-          </li>
-        </ol>
+      <Swiper
+        navigation={{
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          }
+        }}
+      >
+        <img
+          className='swiper-slide'
+          src={page.image_s_one}
+          style={{ width: '100%', height: '100%' }}
+        />
+        <img
+          className='swiper-slide'
+          src={page.image_s_two}
+          style={{ width: '100%', height: '100%' }}
+        />
+        <img
+          className='swiper-slide'
+          src={page.image_s_three}
+          style={{ width: '100%', height: '100%' }}
+        />
+      </Swiper>
 
-        <div className='carousel-inner'>
-          <div className='item active'>
-            <div className='overlay' />
-            <img
-              src={page.image_s_one}
-              style={{ width: '100%', height: '100%' }}
-            />
-          </div>
-
-          <div className='item'>
-            <img
-              src={page.image_s_two}
-              style={{ width: '100%', height: '100%' }}
-            />
-          </div>
-          <div className='item'>
-            <img
-              src={page.image_s_three}
-              style={{ width: '100%', height: '100%' }}
-            />
-          </div>
-        </div>
-
-        <div className='row text-position'>
+      <div className='row text-position'>
+        <div className='row'>
           <div className='row'>
-            <div className='row'>
-              <div className='container'>
-                <div className='row adapta-logo-div'>
-                  <div className='col-lg-12 col-md-12 col-xs-12 col-sm-12'>
-                    <img src='/images/AdaptaLogo.png' className='adapta-logo' />
+            <div className='container'>
+              <div className='row adapta-logo-div'>
+                <div className='col-lg-12 col-md-12 col-xs-12 col-sm-12'>
+                  <img src='/images/AdaptaLogo.png' className='adapta-logo' />
+                </div>
+              </div>
+              <div className='row'>
+                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                  <Content
+                    source={page.content}
+                    className='stormwater-outlets-d'
+                  />
+                </div>
+              </div>
+              <div className='row'>
+                <div className='col-lg-5 col-md-12 col-sm-12 col-xs-12'>
+                  <div className='mask-copy-1'>
+                    <Link to='/products/' className=' view-products'>
+                      <b>View products</b>
+                    </Link>
                   </div>
                 </div>
-                <div className='row'>
-                  <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                    <Content
-                      source={page.content}
-                      className='stormwater-outlets-d'
-                    />
+                <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
+                  <div className='row'>
+                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
+                      <Content
+                        source={page.logo_content}
+                        className='suits-institute-of-p'
+                      />
+                    </div>
+                  </div>
+                  <div className='row'>
+                    <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
+                      <img src={page.logo} className='ipwea' />
+                    </div>
                   </div>
                 </div>
-                <div className='row'>
-                  <div className='col-lg-5 col-md-12 col-sm-12 col-xs-12'>
-                    <div className='mask-copy-1'>
-                      <Link to='/products/' className=' view-products'>
-                        <b>View products</b>
-                      </Link>
+                <div className='col-lg-3 col-md-12  col-sm-12 col-xs-12 hide-col'>
+                  <div className='row'>
+                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
+                      <Content
+                        source={page.suppliers_content}
+                        className='available-at-all-plu'
+                      />
                     </div>
-                  </div>
-                  <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
-                    <div className='row'>
-                      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                        <Content
-                          source={page.logo_content}
-                          className='suits-institute-of-p'
-                        />
-                      </div>
-                    </div>
-                    <div className='row'>
-                      <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
-                        <img src={page.logo} className='ipwea' />
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-lg-3 col-md-12  col-sm-12 col-xs-12 hide-col'>
-                    <div className='row'>
-                      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
-                        <Content
-                          source={page.suppliers_content}
-                          className='available-at-all-plu'
-                        />
-                      </div>
 
-                      <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
-                        <img src={page.suppliers_logo} className='bitmap' />
-                      </div>
+                    <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
+                      <img src={page.suppliers_logo} className='bitmap' />
                     </div>
                   </div>
                 </div>
