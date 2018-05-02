@@ -24,20 +24,20 @@ export default ({ page }) => {
           <div className='item active'>
             <div className='overlay' />
             <img
-              src='/images/hero-img.jpg'
+              src={page.image_s_one}
               style={{ width: '100%', height: '100%' }}
             />
           </div>
 
           <div className='item'>
             <img
-              src='/images/hero-img.png'
+              src={page.image_s_two}
               style={{ width: '100%', height: '100%' }}
             />
           </div>
           <div className='item'>
             <img
-              src='/images/hero-img.png'
+              src={page.image_s_three}
               style={{ width: '100%', height: '100%' }}
             />
           </div>
