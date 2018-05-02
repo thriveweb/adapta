@@ -38,7 +38,6 @@ export default ({ page, products, product }) => {
               className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
               key={title}
             >
-              {console.log(order)}
               <div className='image-card'>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <div className='row'>
