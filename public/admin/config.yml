@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Page"
     delete: false # Prevent users from deleting documents in this collection
     editor:
-      preview: false
+      preview: true
     files:
       - file: "content/pages/home.md"
         label: "Home Page"
@@ -58,7 +58,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: List Item 4, name: list_item_4, widget: text, required: false}
               - {label: List Item 5, name: list_item_5, widget: text, required: false}
               - {label: List Item 6, name: list_item_6, widget: text, required: false}
-
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
@@ -68,10 +67,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Phone, name: phone, widget: string, required: false}
           - {label: Fax, name: fax, widget: text, required: false}
           - {label: Email, name: email, widget: text, required: false}
+      - file: "content/pages/terms.md"
+        label: "Terms Page"
+        name: "terms-page"
+        fields:
+          - {label: Content, name: content, widget: markdown, required: false}
   - name: products
     label: Product
     editor:
-      preview: false
+      preview: true
     folder: content/products
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection

@@ -31,11 +31,10 @@ export default ({ page, products, product }) => {
       <div>
         <div className='row product-card'>
           {productsSorted.map(({ title = '', image }) => (
-            // <Link
-            //   to={`/products/${productLink}`}
-            //   className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
-            // >
-            <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'>
+            <Link
+              to={`/products/${productLink}`}
+              className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
+            >
               <div className='image-card'>
                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                   <div className='row'>
@@ -57,8 +56,7 @@ export default ({ page, products, product }) => {
                   </div>
                 </div>
               </div>
-            </div>
-            // </Link>
+            </Link>
           ))}
 
           {/* <div className='row show-num'>
