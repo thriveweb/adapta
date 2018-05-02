@@ -33,7 +33,7 @@ export default ({ page, products, product }) => {
       <div>
         <div className='row product-card'>
           {productsSorted.map(({ title = '', image, order }) => (
-            <Link
+            <div
               to={`/products/${productLink}`}
               className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
               key={title}
@@ -59,7 +59,7 @@ export default ({ page, products, product }) => {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
 
           {/* <div className='row show-num'>
