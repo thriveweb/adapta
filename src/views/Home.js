@@ -10,6 +10,12 @@ export default ({ page }) => {
   return (
     <div>
       <Swiper
+        autoplay={{
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+          }
+        }}
         navigation={{
           navigation: {
             nextEl: '.swiper-button-next',
