@@ -1440,3 +1440,10 @@ ul.nav li a.active {
     padding: 20px 0;
   }
 }
+
+.swiper-container-rtl .swiper-button-prev {
+  left: 20px;
+}
+.swiper-container-rtl .swiper-button-next {
+  right: 20px;
+}

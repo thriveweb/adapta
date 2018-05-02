@@ -11,16 +11,12 @@ export default ({ page }) => {
     <div>
       <Swiper
         autoplay={{
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-          }
+          delay: 2500,
+          disableOnInteraction: false
         }}
         navigation={{
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          }
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
         }}
       >
         <img
