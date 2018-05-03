@@ -3,15 +3,19 @@ order: '11'
 title: AK10 - Long Layback
 image: /images/uploads/ak10-longlayback.jpg
 dimensions: |-
-  Top Length: 50mm
+  **DIMENSIONS**
 
-  Base Length: 305mm
+  Top Length:  30 mm
 
-  Height: 130mm
+  Base Length:  380 mm
+
+  Height:  100 mm
 
 
 
-  Box Qty: 8 units (1 box)
+  **BOX QUANTITY**
+
+  6 units (1 box)
 content: >-
   **FEATURES :**
 
