@@ -11,6 +11,8 @@ dimensions: |-
 
 
 
+
+
   **BOX QUANTITY**
 
   8 units (1 box)
