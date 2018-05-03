@@ -60,13 +60,11 @@ export default ({ product }) => (
 
     <div className='container_main smaller'>
       <img src={product.bottom_diagram} className='cross-section' />
-      <p>{product.bottom_diagram_excerpt}</p>
+      <div className='product_text tacenter'>
+        <p>{product.bottom_diagram_excerpt}</p>
+      </div>
     </div>
 
     <img src={product.bottom_full_image} className='background2' />
-
-    <div className='product_text tacenter'>
-      <p>{product.bottom_diagram_excerpt}</p>
-    </div>
   </div>
 )
