@@ -1244,9 +1244,13 @@ div.view-product:hover {
   cursor: pointer;
 }
 
+.bg-product .prod-text {
+  padding-left: 15px;
+}
+
 /*--- Nav ---*/
 
-header .container {
+#header .container {
   width: 100%;
   padding: 0 10px;
 }
@@ -1596,7 +1600,7 @@ ul.nav li a.active {
 }
 
 .contact-container.terms {
-  padding: 10rem 0;
+  padding: 10rem 15px;
   margin-bottom: 0;
 }
 

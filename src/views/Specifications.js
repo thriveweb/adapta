@@ -6,7 +6,7 @@ import Content from '../components/Content'
 
 export default ({ page, siteTitle }) => (
   <div>
-    <div className='row bg-product'>
+    <div className='row bg-product product-bacground'>
       <Helmet>
         <title>{page.title}</title>
       </Helmet>
