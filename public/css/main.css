@@ -1246,6 +1246,11 @@ div.view-product:hover {
 
 /*--- Nav ---*/
 
+header .container {
+  width: 100%;
+  padding: 0 10px;
+}
+
 ul.nav li a.active {
   color: #fcd103;
 }
@@ -1274,6 +1279,45 @@ ul.nav li a.active {
 
 .three_col .footer-logo {
   margin: 0;
+}
+
+.footCol_new .three_col ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .footCol_new .three_col .col {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .three_col .ulnone ul.ulnone {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .three_col .ulnone li {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footCol_new .three_col .col {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .three_col .ulnone {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .three_col .ulnone li {
+    display: block;
+  }
 }
 
 /*--- Single Product ---*/

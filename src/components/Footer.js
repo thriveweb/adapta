@@ -57,7 +57,7 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
           <div className='col'>
             <ul className='ulnone'>
               <li>
-                <Link to='/'>Terms &amp; Conditions</Link>
+                <Link to='/terms'>Terms &amp; Conditions</Link>
               </li>
               <li>
                 {/* <Link className='home1 footer-privacy-space' to='/'>

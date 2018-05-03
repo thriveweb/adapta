@@ -167,7 +167,7 @@ class Header extends React.Component {
                           to='/specifications/'
                           className='header-font'
                         >
-                          SPECIFICATIONS
+                          SPECS
                         </NavLink>
                       </li>
                       <li>
