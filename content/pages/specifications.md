@@ -1,5 +1,5 @@
 ---
-content: >-
+content_pdf: >-
   ## Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
@@ -9,8 +9,8 @@ content: >-
   odio tempor eleifend. Donec mi quam, aliquam non tempor in, suscipit eu
   lectus. Vestibulum odio orci, scelerisque id dictum vel, sollicitudin eu sem.
   Nullam ultricies turpis purus.
-
-
+pdf: /images/uploads/adapta-kerb_specifications_final.pdf
+content: >-
   ## Etiam eu tincidunt urna.
 
 
@@ -59,6 +59,5 @@ content: >-
   ut, imperdiet cursus sapien. Morbi tempor sem vitae fermentum iaculis. Quisque
   sodales risus dolor, in faucibus nisl dictum ut. Sed sollicitudin augue eu
   diam sagittis pulvinar.
-pdf: /images/uploads/adapta-kerb_specifications_final.pdf
 ---
 
