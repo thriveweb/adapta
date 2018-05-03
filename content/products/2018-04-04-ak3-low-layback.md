@@ -3,13 +3,13 @@ order: '6'
 title: AK3 - Low Layback
 image: /images/uploads/ak3-low layback.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  45 mm
 
   Base Length:  295 mm
 
   Height:  100 mm
+
+
 
 
 

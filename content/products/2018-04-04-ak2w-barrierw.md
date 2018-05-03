@@ -3,13 +3,13 @@ order: '3'
 title: AK2W - Barrier W
 image: /images/uploads/ak2w-barrierw.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  110mm
 
   Base Length:  130mm
 
   Height:  150mm
+
+
 
 
 

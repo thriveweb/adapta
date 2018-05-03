@@ -3,8 +3,6 @@ order: '8'
 title: AK5 - ExtendedLayback
 image: /images/uploads/ak5-extendedlayback.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  120 mm
 
   Base Length:  285 mm

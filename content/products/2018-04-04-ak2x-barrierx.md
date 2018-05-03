@@ -3,13 +3,13 @@ order: '4'
 title: AK2X - Barrier X
 image: /images/uploads/ak2x-barrierx.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  150mm
 
   Base Length:  130mm
 
   Height:  170mm
+
+
 
 
 
