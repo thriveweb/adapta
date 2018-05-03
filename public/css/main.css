@@ -1619,3 +1619,7 @@ ul.nav li a.active {
 .terms {
   padding: 60px 0;
 }
+
+.header_image {
+  width: 180px;
+}
