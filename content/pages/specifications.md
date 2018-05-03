@@ -1,6 +1,6 @@
 ---
 content_pdf: >-
-  ## **AdaptaKerb  Specification  Sheet  **
+  ## A**daptaKerb  Specification  Sheet**
 
 
   To  download  or  print  the  current  ADAPTAKERB  SPECIFICATIONS  please 
