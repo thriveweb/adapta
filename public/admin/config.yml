@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Content PDF, name: content_pdf, widget: markdown, required: false}
           - {label: PDF, name: pdf, widget: file, required: false}
-          - {label: Content, name: content, widget: markdown, required: false}
+          - {label: Image, name: image, widget: image, required: false}
   - name: products
     label: Product
     editor:
