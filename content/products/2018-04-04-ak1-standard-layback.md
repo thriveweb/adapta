@@ -9,6 +9,8 @@ dimensions: |-
 
   Height: 130mm
 
+
+
   8 units (1 box)
 content: >-
   **FEATURES :**
