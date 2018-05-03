@@ -49,7 +49,7 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
               </li>
               <li>
                 <Link className='foot_item_link' to='/contact/'>
-                  Contacts
+                  Contact
                 </Link>
               </li>
             </ul>
