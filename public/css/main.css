@@ -1636,3 +1636,8 @@ ul.nav li a.active {
 .swiper-slide {
   background-size: cover;
 }
+
+.spec_imga {
+  max-width: 100%;
+  height: auto;
+}

@@ -31,8 +31,8 @@ export default ({ page, siteTitle }) => (
         </a>
       </div>
 
-      <div className='row'>
-        <Content source={page.content} />
+      <div className='row spec_imga'>
+        <Content source={page.image} />
       </div>
     </div>
   </div>
