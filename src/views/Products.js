@@ -34,7 +34,7 @@ export default ({ page, products, product }) => {
         <div className='row product-card'>
           {productsSorted.map(({ title = '', image, order }) => (
             <Link
-              to={`/products/${productLink}`}
+              to={`/products/${_kebabCase(title)}`}
               className='col-lg-4 col-md-6 col-sm-12 col-xs-12 line-copy rectangle-box1'
               key={title}
             >
