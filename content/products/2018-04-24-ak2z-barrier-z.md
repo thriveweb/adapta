@@ -3,8 +3,6 @@ order: '5'
 title: AK2Z - Barrier Z
 image: /images/uploads/ak2z-barrierz.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  150mm
 
   Base Length:  150mm
