@@ -1590,6 +1590,8 @@ ul.nav li a.active {
 
 .slide_bg .swiper-slide {
   min-height: 730px;
+  background-position: center top;
+  background-size: cover;
 }
 
 .swiper-container.swiper-container-horizontal {
