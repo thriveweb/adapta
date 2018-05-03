@@ -33,7 +33,7 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
           <div className='col'>
             <ul className='ulnone'>
               <li>
-                <Link className='foot_item_link' to='/index/'>
+                <Link className='foot_item_link' to='/'>
                   Home
                 </Link>
               </li>
