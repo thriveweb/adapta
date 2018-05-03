@@ -64,5 +64,9 @@ export default ({ product }) => (
     </div>
 
     <img src={product.bottom_full_image} className='background2' />
+
+    <div className='product_text tacenter'>
+      <p>{product.bottom_diagram_excerpt}</p>
+    </div>
   </div>
 )

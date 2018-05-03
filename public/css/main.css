@@ -1248,6 +1248,14 @@ div.view-product:hover {
   padding-left: 15px;
 }
 
+.product_text {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
 /*--- Nav ---*/
 
 #header .container {
