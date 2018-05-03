@@ -3,11 +3,17 @@ order: '9'
 title: AK6 - ShortTopLayback
 image: /images/uploads/ak6-shorttoplayback.jpg
 dimensions: |-
-  Top Length: 50mm
+  **DIMENSIONS**
 
-  Base Length: 305mm
+  Top Length:  30 mm
 
-  Height: 130mm
+  Base Length:  300 mm
+
+  Height:  100 mm
+
+
+
+  **BOX QUANTITY**
 
   8 units (1 box)
 content: >-
@@ -22,7 +28,7 @@ content: >-
   * Locking device: Permanently locks kerb into concrete - will not move or pop
   out. Simply fold down lock tabls and AdaptaKerb will anchor into new or
   existing concrete.
-bottom_diagram: /images/uploads/Cross Section profiles - AdaptaKerb-large.png
+bottom_diagram: /images/uploads/ak6-cross-section.png
 bottom_diagram_excerpt: >-
   CROSS-SECTION PROFILE & DIMENSIONS:  AdaptaKerb installed in Concrete Kerb &
   Channel
