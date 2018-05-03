@@ -25,20 +25,20 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
       </div>
     </div>
     <section>
-      <div className='row policy-doc-row'>
-        <div className='col-lg-5 col-md-6 col-sm-12 col-xs-12 footer-col'>
-          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center'>
+      <div className='footCol_new container_main'>
+        <div className='three_col'>
+          <div className='col'>
             <img className='footer-logo' />
           </div>
-          <div className='col-lg-offset-3 col-lg-3 col-md-ofset-3  col-md-3  col-sm-12 col-xs-12 footer-col'>
+          <div className='col'>
             <ul className='ulnone'>
               <li>
-                <Link className='home1' to='/index/'>
+                <Link className='foot_item_link' to='/index/'>
                   Home
                 </Link>
               </li>
               <li>
-                <Link className='home1 footer-text-space' to='/products/'>
+                <Link className='foot_item_link' to='/products/'>
                   Products
                 </Link>
               </li>
@@ -48,26 +48,24 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
                 </Link> */}
               </li>
               <li>
-                <Link className='home1 footer-contact-space' to='/contact/'>
+                <Link className='foot_item_link' to='/contact/'>
                   Contacts
                 </Link>
               </li>
             </ul>
           </div>
-        </div>
-        <div className='col-lg-offset-1 col-lg-6 col-md-offset-1 col-md-5  col-sm-12  col-xs-12 footer-margin footer-col'>
-          <ul className='ulnone ul-tc'>
-            <li>
-              {/* <Link className='home1 footer-terms-space' to='/'>
-                Terms &amp; Conditions
-              </Link> */}
-            </li>
-            <li>
-              {/* <Link className='home1 footer-privacy-space' to='/'>
-                Privacy Policy
-              </Link> */}
-            </li>
-          </ul>
+          <div className='col'>
+            <ul className='ulnone'>
+              <li>
+                <Link to='/'>Terms &amp; Conditions</Link>
+              </li>
+              <li>
+                {/* <Link className='home1 footer-privacy-space' to='/'>
+                  Privacy Policy
+                </Link> */}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

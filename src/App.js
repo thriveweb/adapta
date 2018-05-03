@@ -13,6 +13,7 @@ import Products from './views/Products'
 import Product from './views/Product'
 import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
+import Terms from './views/terms'
 import Footer from './components/Footer'
 import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import AOS from './components/AOS'
@@ -140,6 +141,29 @@ class App extends Component {
               render={props => (
                 <Contact
                   page={this.getDocument('pages', 'contact')}
+                  siteTitle={siteTitle}
+                  {...props}
+                />
+              )}
+            />
+            <Route
+              path='/terms/'
+              exact
+              render={props => (
+                <Terms
+                  page={this.getDocument('pages', 'terms')}
+                  siteTitle={siteTitle}
+                  {...props}
+                />
+              )}
+            />
+
+            <Route
+              path='/specifications/'
+              exact
+              render={props => (
+                <Terms
+                  page={this.getDocument('pages', 'specifications')}
                   siteTitle={siteTitle}
                   {...props}
                 />

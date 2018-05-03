@@ -23,24 +23,21 @@ export default ({ page }) => {
             prevEl: '.swiper-button-prev'
           }}
         >
-          <img
+          <div
             className='swiper-slide'
-            src={page.image_s_one}
-            style={{ width: '100%', height: '100%' }}
+            style={{ backgroundImage: `url(${page.image_s_one})` }}
           />
-          <img
+          <div
             className='swiper-slide'
-            src={page.image_s_two}
-            style={{ width: '100%', height: '100%' }}
+            style={{ backgroundImage: `url(${page.image_s_two})` }}
           />
-          <img
+          <div
             className='swiper-slide'
-            src={page.image_s_three}
-            style={{ width: '100%', height: '100%' }}
+            style={{ backgroundImage: `url(${page.image_s_three})` }}
           />
         </Swiper>
       </div>
-      <div className='row text-position'>
+      <div className='row text-position slide_cont'>
         <div className='row'>
           <div className='row'>
             <div className='container'>
@@ -65,8 +62,8 @@ export default ({ page }) => {
                     </Link>
                   </div>
                 </div>
-                <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col'>
-                  <div className='row'>
+                <div className='col-lg-4 col-md-12  col-sm-12 col-xs-12 hide-col logos_slide_hide'>
+                  <div className='row logos_slide_hide'>
                     <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
                       <Content
                         source={page.logo_content}
@@ -74,7 +71,7 @@ export default ({ page }) => {
                       />
                     </div>
                   </div>
-                  <div className='row'>
+                  <div className='row logos_slide_hide'>
                     <div className='col-lg-6 col-sm-12 col-md-12 col-xs-12 ipwea-div'>
                       <img src={page.logo} className='ipwea' />
                     </div>
@@ -89,7 +86,7 @@ export default ({ page }) => {
                       />
                     </div>
 
-                    <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div'>
+                    <div className='col-lg-10 col-sm-6 col-md-6 col-xs-4 bitmap-div btmap-div toptacenter'>
                       <img src={page.suppliers_logo} className='bitmap' />
                     </div>
                   </div>

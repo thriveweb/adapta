@@ -258,18 +258,23 @@ body {
   line-height: 2;
 }
 .download-file {
-  height: 19px;
+  height: 100%;
   width: 131px;
   color: #093759;
   font-family: 'Cooper Hewitt';
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: 0;
+  line-height: 1;
+  margin: 0;
   text-align: center;
   text-shadow: 0 2px 4px rgba(9, 55, 89, 0.08);
-  margin: 17px auto;
-  display: inline-block;
+  margin: 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 2;
 }
 .policy-doc-row {
   margin: 80px 0px 40px 0px;
@@ -283,6 +288,20 @@ body {
 }
 .footer-col {
   padding: 0px;
+}
+
+.footer-col ul {
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  max-width: 100%;
+}
+
+.footer-col ul li {
+  margin: 10px 15px;
 }
 /*.footer-bg {
     background-image: url('../images/BG Copy 8.svg');
@@ -440,10 +459,32 @@ body {
 }
 .text-position {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 170px;
   width: 100%;
   z-index: 100;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-position {
+    top: 150px;
+  }
+  .logos_slide_hide {
+    display: none;
+  }
+  .bitmap-div.toptacenter {
+    width: 100%;
+    text-align: center;
+  }
+  .text-position.slide_cont {
+    padding: 80px 20px;
+    position: relative;
+    background-color: #0b3d62;
+    top: 0;
+  }
+
+  .slide_bg .swiper-slide {
+    min-height: 330px !important;
+  }
 }
 
 .row {
@@ -1190,6 +1231,32 @@ ul.nav li a.active {
   color: #fcd103;
 }
 
+/*=== Footer ====*/
+.footCol_new {
+  padding: 40px 0;
+}
+
+.footCol_new .three_col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footCol_new .three_col .col {
+  width: 30%;
+}
+
+.footCol_new .three_col .col a {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.three_col .footer-logo {
+  margin: 0;
+}
+
 /*--- Single Product ---*/
 
 .two_col.top_product {
@@ -1443,10 +1510,15 @@ ul.nav li a.active {
 
 .slide_bg {
   background-color: #093759;
+  position: relative;
+}
+
+.slide_bg .swiper-slide {
+  min-height: 730px;
 }
 
 .swiper-container.swiper-container-horizontal {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .swiper-button-prev {
@@ -1458,4 +1530,17 @@ ul.nav li a.active {
   right: 20px !important;
   z-index: 10000 !important;
   cursor: pointer !important;
+}
+
+.contact-container.terms {
+  padding: 10rem 0;
+  margin-bottom: 0;
+}
+
+.prod-text.terms {
+  max-width: 100%;
+}
+
+.terms {
+  padding: 60px 0;
 }

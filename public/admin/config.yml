@@ -50,11 +50,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Email, name: email, widget: text, required: false}
       - file: "content/pages/terms.md"
         label: "Terms Page"
-        name: "terms-page"
+        name: "terms"
         fields:
-          - {label: Background Image, name: background_image, widget: image, required: false}
-          - {label: PDF, name: pdf, widget: image, required: false}
           - {label: Content, name: content, widget: markdown, required: false}
+      - file: "content/pages/specifications.md"
+        label: "Specifications Page"
+        name: "SPECIFICATIONS"
+        fields:
+          - {label: Content, name: content, widget: markdown, required: false}
+          - {label: PDF, name: pdf, widget: image, required: false}
   - name: products
     label: Product
     editor:

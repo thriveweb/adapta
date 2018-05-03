@@ -121,6 +121,16 @@ class Header extends React.Component {
                           </div>
                           <div className='row'>
                             <div className='col-md'>
+                              <NavLink
+                                onClick={this.closeModal}
+                                to='/specifications/'
+                              >
+                                <p className='modal-product'>SPECIFICATIONS</p>
+                              </NavLink>
+                            </div>
+                          </div>
+                          <div className='row'>
+                            <div className='col-md'>
                               <NavLink onClick={this.closeModal} to='/contact/'>
                                 <p className='modal-contact'>CONTACT</p>
                               </NavLink>
@@ -149,6 +159,15 @@ class Header extends React.Component {
                           className='header-font'
                         >
                           PRODUCTS
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          onClick={this.closeModal}
+                          to='/specifications/'
+                          className='header-font'
+                        >
+                          SPECIFICATIONS
                         </NavLink>
                       </li>
                       <li>
