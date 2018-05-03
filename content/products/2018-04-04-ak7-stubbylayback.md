@@ -3,8 +3,6 @@ order: '10'
 title: AK7 - Stubby Layback
 image: /images/uploads/ak7-stubbylayback.jpg
 dimensions: |-
-  **DIMENSIONS**
-
   Top Length:  60 mm
 
   Base Length:  240 mm
