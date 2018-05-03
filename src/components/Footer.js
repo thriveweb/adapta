@@ -60,9 +60,7 @@ export default ({ globalSettings, socialSettings, navLinks }) => (
                 <Link to='/terms'>Terms &amp; Conditions</Link>
               </li>
               <li>
-                {/* <Link className='home1 footer-privacy-space' to='/'>
-                  Privacy Policy
-                </Link> */}
+                <Link to='/specifications'>Specifications</Link>
               </li>
             </ul>
           </div>
