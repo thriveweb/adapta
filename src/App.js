@@ -13,7 +13,8 @@ import Products from './views/Products'
 import Product from './views/Product'
 import Contact from './views/Contact'
 import NoMatch from './views/NoMatch'
-import Terms from './views/terms'
+import Terms from './views/Terms'
+import Specifications from './views/Specifications'
 import Footer from './components/Footer'
 import ServiceWorkerNotifications from './components/ServiceWorkerNotifications'
 import AOS from './components/AOS'
@@ -162,7 +163,7 @@ class App extends Component {
               path='/specifications/'
               exact
               render={props => (
-                <Terms
+                <Specifications
                   page={this.getDocument('pages', 'specifications')}
                   siteTitle={siteTitle}
                   {...props}

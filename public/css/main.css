@@ -1225,6 +1225,25 @@ div.view-product:hover {
   max-width: 800px;
 }
 
+.pdf_container {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.pdf_container a {
+  padding: 15px 50px;
+  color: white !important;
+  background-color: #fcd103;
+  font-weight: bold;
+  display: inline-block;
+
+  font-size: 22px;
+  letter-spacing: 1px;
+  xmargin: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 /*--- Nav ---*/
 
 ul.nav li a.active {

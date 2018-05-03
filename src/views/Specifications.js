@@ -23,6 +23,13 @@ export default ({ page, siteTitle }) => (
       <div className='row'>
         <Content source={page.content} />
       </div>
+
+      <div className='pdf_container'>
+        <a className='button_pdf' href={page.pdf} target='_blank'>
+          {' '}
+          SPECIFICATIONS{' '}
+        </a>
+      </div>
     </div>
   </div>
 )
