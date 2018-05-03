@@ -26,8 +26,8 @@ content: >-
   existing concrete.
 bottom_diagram: /images/uploads/Cross Section profiles - AdaptaKerb-large.png
 bottom_diagram_excerpt: >-
-  CROSS-SECTION PROFILE & DIMENSIONS:  ADAPTAKERB INSTALLED IN CONCRETE KERB &
-  CHANNEL
+  CROSS-SECTION PROFILE & DIMENSIONS:  AdaptaKerb installed in Concrete Kerb &
+  Channel
 bottom_full_image: /images/uploads/background2.png
 date: '2018-04-04'
 ---
