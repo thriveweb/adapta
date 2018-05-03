@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import Content from '../components/Content'
+import LazyImage from '../components/LazyImage'
 
 export default ({ page, siteTitle }) => (
   <div>
@@ -32,7 +33,7 @@ export default ({ page, siteTitle }) => (
       </div>
 
       <div className='row spec_imga'>
-        <Content source={page.image} />
+        <LazyImage src={page.image} />
       </div>
     </div>
   </div>
