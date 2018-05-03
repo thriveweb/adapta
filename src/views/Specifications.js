@@ -21,7 +21,7 @@ export default ({ page, siteTitle }) => (
 
     <div className='container contact-container terms'>
       <div className='row'>
-        <Content source={page.content} />
+        <Content source={page.content_pdf} />
       </div>
 
       <div className='pdf_container'>
@@ -29,6 +29,10 @@ export default ({ page, siteTitle }) => (
           {' '}
           SPECIFICATIONS{' '}
         </a>
+      </div>
+
+      <div className='row'>
+        <Content source={page.content} />
       </div>
     </div>
   </div>

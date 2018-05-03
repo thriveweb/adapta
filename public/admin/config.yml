@@ -57,8 +57,9 @@ collections: # A list of collections the CMS should be able to edit
         label: "Specifications Page"
         name: "SPECIFICATIONS"
         fields:
-          - {label: Content, name: content, widget: markdown, required: false}
+          - {label: Content PDF, name: content_pdf, widget: markdown, required: false}
           - {label: PDF, name: pdf, widget: file, required: false}
+          - {label: Content, name: content, widget: markdown, required: false}
   - name: products
     label: Product
     editor:
