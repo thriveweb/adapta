@@ -62,7 +62,7 @@ class Form extends React.Component {
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=''
-        data-netlify-honeypot='helloworld'
+        data-netlify-honeypot='email'
       >
         {this.state.alert && (
           <div className='EnquiryForm--Alert'>{this.state.alert}</div>
@@ -98,7 +98,7 @@ class Form extends React.Component {
               <div className='col-lg-12 col-md-12  col-sm-12 col-xs-12'>
                 <input
                   type='email'
-                  name='email'
+                  name='email2'
                   placeholder='EMAIL ADDRESS'
                   className='inputfields '
                   required
@@ -117,7 +117,7 @@ class Form extends React.Component {
                 />
               </div>
             </div>
-            <input type='text' name='helloworld' style={{ display: 'none' }} />
+            <input type='text' name='email' style={{ display: 'none' }} />
             {!!subject && (
               <input type='hidden' name='subject' value={subject} />
             )}
