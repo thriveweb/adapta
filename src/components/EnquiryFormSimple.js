@@ -13,7 +13,6 @@ export default ({
     action={action}
     data-netlify=''
     data-netlify-honeypot='_gotcha'
-    netlify-honeypot='bot-field'
   >
     <label className='EnquiryForm--Label'>
       <input
