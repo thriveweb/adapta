@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import _kebabCase from 'lodash/kebabCase'
 import _sortBy from 'lodash/sortBy'
 
-import LazyImage from '../components/LazyImage'
-import Content from '../components/Content.js'
+//import LazyImage from '../components/LazyImage'
+//import Content from '../components/Content.js'
 
 export default ({ page, products, product }) => {
   const productLink = _kebabCase(products[0]['title'])

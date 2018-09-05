@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
+//import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
 import Content from '../components/Content'
 import LazyImage from '../components/LazyImage'
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Helmet from 'react-helmet'
-import _kebabCase from 'lodash/kebabCase'
+//import _kebabCase from 'lodash/kebabCase'
 
-import LazyImage from '../components/LazyImage'
+//import LazyImage from '../components/LazyImage'
 import Content from '../components/Content.js'
 
 export default ({ product }) => (
