@@ -131,6 +131,8 @@ class Form extends React.Component {
                 justifyContent: 'center'
               }}
             >
+              <div data-netlify-recaptcha></div>
+
               <input
                 className='view-products'
                 type='submit'
