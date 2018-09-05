@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
 import Swiper from 'react-id-swiper'
-import 'react-id-swiper/src/styles/css/swiper.css'
+//import 'react-id-swiper/src/styles/css/swiper.css'
 
 import Content from '../components/Content'
 
