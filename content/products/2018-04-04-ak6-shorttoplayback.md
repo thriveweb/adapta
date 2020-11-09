@@ -1,6 +1,6 @@
 ---
 order: '9'
-title: AK6 - ShortTopLayback
+title: AK6 - ShortTop Layback
 image: /images/uploads/ak6-shorttoplayback.jpg
 dimensions: |-
   **DIMENSIONS**
