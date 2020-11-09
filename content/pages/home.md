@@ -16,7 +16,7 @@ content: >-
 logo_content: 'Suits Institute of Public Works Engineering Kerb & Channel Profiles:'
 logo: /images/uploads/ipwea.png
 suppliers_content: 'Available at all plumbing supply and hardware stores:'
-suppliers_logo: /images/uploads/supplier-logos-2020.png
+suppliers_logo: ''
 list_items:
   list_item_1: >-
     STORMWATER CONNECTIONS         Specially designed UPVC connector designed to
