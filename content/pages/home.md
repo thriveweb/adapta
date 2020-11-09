@@ -25,9 +25,8 @@ list_items:
     LOCKING DEVICE    Locks permanently into concrete kerb. Simply fold down
     lock tabs and AdaptaKerb will anchor into new or existing concrete.
   list_item_3: >-
-    HEAVY-DUTY GALVANIZED STEEL      AdaptaKerb is made to last with high
-    quality galvanized steel and designed to Australian Standards AS3500 &
-    AS2876.
+    HEAVY-DUTY GALVANIZED STEEL      AdaptaKerb is designed with high quality
+    galvanized steel to Australian Standards AS3500 & AS2876.
   list_item_4: >-
     LONG LASTING   AdaptaKerbs have been installed into street kerbs since 1989
     without breaking or falling apart. 
