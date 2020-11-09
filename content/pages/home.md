@@ -1,8 +1,8 @@
 ---
 seo_title: Stormwater Outlets for Street Kerbs
-image_s_one: /images/uploads/hero-img.jpg
-image_s_two: /images/uploads/image-new.jpg
-image_s_three: /images/uploads/slide-3-2.jpg
+image_s_one: /images/uploads/-adaptakerbs_all_models.jpg
+image_s_two: /images/uploads/background2.png
+image_s_three: /images/uploads/image-new.jpg
 content_logo: /images/uploads/AdaptaLogo.png
 title: Adapta Kerb
 content: >-
