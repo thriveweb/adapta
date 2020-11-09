@@ -19,7 +19,7 @@ suppliers_content: 'Available at all plumbing supply and hardware stores:'
 suppliers_logo: /images/uploads/supplier-logos-2020.png
 list_items:
   list_item_1: >-
-    STORMWATER CONNECTIONS      Specially designed UPVC connector designed to
+    STORMWATER CONNECTIONS         Specially designed UPVC connector designed to
     take either 90mm or 100mm stormwater pipes.
   list_item_2: >-
     LOCKING DEVICE          Locks permanently into concrete kerb. Simply fold
@@ -31,10 +31,10 @@ list_items:
     LONG LASTING      AdaptaKerbs have been installed into street kerbs since
     1989 without breaking or falling apart. 
   list_item_5: >-
-    QUICK INSTALLATION   AdaptaKerbs are quick and easy to install - saving you
-    time and money.
+    QUICK INSTALLATION         AdaptaKerbs are quick and easy to install -
+    saving you time and money.
   list_item_6: >-
-    LARGEST RANGE AVAILABLE     12 models - AdaptaKerbs fit most Council kerb
-    profiles.
+    LARGEST RANGE AVAILABLE          12 models - AdaptaKerbs fit most Council
+    kerb profiles.
 ---
 
