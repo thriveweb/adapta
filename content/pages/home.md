@@ -22,9 +22,8 @@ list_items:
     STORMWATER CONNECTIONS   Specially designed UPVC connector designed to take
     either 90mm or 100mm stormwater pipes.
   list_item_2: >-
-    LOCKING DEVICE    Locks permanently into concrete kerb - will not move or
-    pop out. Simply fold down lock tabs and AdaptaKerb will anchor into new or
-    existing concrete.
+    LOCKING DEVICE    Locks permanently into concrete kerb. Simply fold down
+    lock tabs and AdaptaKerb will anchor into new or existing concrete.
   list_item_3: >-
     HEAVY-DUTY GALVANIZED STEEL      AdaptaKerb is made to last with high
     quality galvanized steel and designed to Australian Standards AS3500 &
