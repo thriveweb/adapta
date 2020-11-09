@@ -1,6 +1,6 @@
 ---
 order: '8'
-title: AK5 - ExtendedLayback
+title: AK5 - Extended Layback
 image: /images/uploads/ak5-extendedlayback.jpg
 dimensions: |-
   Top Length:  120 mm
