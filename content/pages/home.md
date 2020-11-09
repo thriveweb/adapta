@@ -2,7 +2,7 @@
 seo_title: Stormwater Outlets for Street Kerbs
 image_s_one: /images/uploads/-adaptakerbs_all_models.jpg
 image_s_two: /images/uploads/background2.png
-image_s_three: /images/uploads/image-new.jpg
+image_s_three: ''
 content_logo: /images/uploads/AdaptaLogo.png
 title: Adapta Kerb
 content: >-
@@ -16,7 +16,7 @@ content: >-
 logo_content: 'Suits Institute of Public Works Engineering Kerb & Channel Profiles:'
 logo: /images/uploads/ipwea.png
 suppliers_content: 'Available at all plumbing supply and hardware stores:'
-suppliers_logo: /images/uploads/logos.png
+suppliers_logo: /images/uploads/supplier-logos-2020.png
 list_items:
   list_item_1: UPVC connector to take 90/100mm stormwater pipes
   list_item_2: Special locking device - lock into concrete
