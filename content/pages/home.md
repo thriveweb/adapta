@@ -19,22 +19,22 @@ suppliers_content: 'Available at all plumbing supply and hardware stores:'
 suppliers_logo: /images/uploads/supplier-logos-2020.png
 list_items:
   list_item_1: >-
-    STORMWATER CONNECTIONS   Specially designed UPVC connector designed to take
-    either 90mm or 100mm stormwater pipes.
+    STORMWATER CONNECTIONS      Specially designed UPVC connector designed to
+    take either 90mm or 100mm stormwater pipes.
   list_item_2: >-
-    LOCKING DEVICE    Locks permanently into concrete kerb. Simply fold down
-    lock tabs and AdaptaKerb will anchor into new or existing concrete.
+    LOCKING DEVICE          Locks permanently into concrete kerb. Simply fold
+    down lock tabs and AdaptaKerb will anchor into new or existing concrete.
   list_item_3: >-
-    HEAVY-DUTY GALVANIZED STEEL      AdaptaKerb is designed with high quality
+    HEAVY-DUTY GALVANIZED STEEL         AdaptaKerb is designed with high quality
     galvanized steel to Australian Standards AS3500 & AS2876.
   list_item_4: >-
-    LONG LASTING   AdaptaKerbs have been installed into street kerbs since 1989
-    without breaking or falling apart. 
+    LONG LASTING      AdaptaKerbs have been installed into street kerbs since
+    1989 without breaking or falling apart. 
   list_item_5: >-
     QUICK INSTALLATION   AdaptaKerbs are quick and easy to install - saving you
     time and money.
   list_item_6: >-
-    LARGEST RANGE AVAILABLE - 12 models. AdaptaKerbs fit most Council kerb
+    LARGEST RANGE AVAILABLE     12 models - AdaptaKerbs fit most Council kerb
     profiles.
 ---
 
