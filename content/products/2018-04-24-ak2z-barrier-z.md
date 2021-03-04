@@ -5,11 +5,9 @@ image: /images/uploads/ak2z-barrierz.jpg
 dimensions: |-
   Top Length:  150mm
 
-  Base Length:  150mm
+  Base Length:  180mm
 
-  Height:  180mm
-
-
+  Height:  150mm
 
   **BOX QUANTITY**
 
