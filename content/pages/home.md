@@ -15,7 +15,7 @@ content: >-
   a look at our extensive range of AdaptaKerb models now available.
 logo_content: 'Suits Institute of Public Works Engineering Kerb & Channel Profiles:'
 logo: /images/uploads/ipwea.png
-suppliers_content: 'Available at all plumbing supply and hardware stores:'
+suppliers_content: 'Available at all plumbing supply stores and BUNNINGS WAREHOUSE:'
 suppliers_logo: /images/uploads/logos.png
 list_items:
   list_item_1: >-
