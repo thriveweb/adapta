@@ -71,7 +71,7 @@ export default ({ page, siteTitle }) => (
                 <div className='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
                   <p className='tele-data'>
                     t: {page.phone}
-                    <br />{page.fax && 'f:'} {page.fax}
+                    <br />{page.fax && page.fax.length > 0 && 'f:'} {page.fax}
                   </p>
                 </div>
               </div>
